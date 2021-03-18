@@ -2,17 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(DialogUIController))]
 public class DialogManager : MonoBehaviour
 {
     DialogUIController dialogUI;
-    Dialog dialog;
+    Dialog dialog, nextDialog;
+    bool hasNextDialog;
+
+
     Queue<Sentence> sentences;
     Sentence currentSentence;
+
+    private void Awake()
+    {
+        dialogUI = GetComponent<DialogUIController>(); 
+        sentences = new Queue<Sentence>();
+    }
 
     public void StartDialog(Dialog d)
     {
         dialogUI.ClearButtons();
         dialog = d;
+        nextDialog = null;
+        hasNextDialog = false;
 
         if (dialog == null)
         {
@@ -32,11 +44,11 @@ public class DialogManager : MonoBehaviour
     {
         if (dialogUI.isTyping)
         {
-            dialogUI.CompleteSentence(currentSentence);
+            dialogUI.CompleteSentence();
         }
         else if(sentences.Count == 0)
         {
-
+            EndDialog();
         }
         else
         {
@@ -46,13 +58,17 @@ public class DialogManager : MonoBehaviour
 
     public void EndDialog()
     {
-        if(dialog.options.Length == 0)
+        if (hasNextDialog)
         {
-
+            StartDialog(nextDialog);
+        }
+        else if(dialog.options.Length == 0)
+        {
+            print("end");
         }
         else if(dialog.options.Length == 1)
         {
-
+            StartDialog(dialog.options[0].nextDialog);
         }
         else
         {
@@ -62,11 +78,15 @@ public class DialogManager : MonoBehaviour
 
     public void SelectOption(int i)
     {
+        dialog.character.affection += dialog.options[i].affectionGiven;
         foreach (Sentence s in dialog.options[i].response)
         {
             sentences.Enqueue(s);
         }
 
-        StartDialog(dialog.options[i].nextDialog);
+        nextDialog = dialog.options[i].nextDialog;
+        hasNextDialog = true;
+
+        DisplayDialog();
     }
 }

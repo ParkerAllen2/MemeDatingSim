@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[CreateAssetMenu]
 public class Dialog : ScriptableObject
 {
     public Character character;
@@ -13,9 +12,9 @@ public class Dialog : ScriptableObject
 [System.Serializable]
 public class Sentence
 {
+    [TextArea(2, 10)]
     public string sentence;
     public int expression;
-    public int fontSize = 18;
 }
 
 [System.Serializable]
