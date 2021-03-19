@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu]
 public class Commands : ScriptableObject
 {
-    public readonly string prefix;
-    public readonly string[] characters;
-    public readonly string[] expressions;
-    public readonly string option;
-    public readonly string skipTo;
-    public readonly string changeAffection;
-
+    public string prefix;
+    public string[] characters;
+    public string expression;
+    [Space(10)]
+    public string option;
+    public string changeAffection;
+    public string skipTo;
+    [Space(10)]
+    public string changeBackground;
+    public string nextScene;
 }
