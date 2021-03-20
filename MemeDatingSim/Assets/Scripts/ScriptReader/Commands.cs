@@ -8,10 +8,11 @@ public class Commands : ScriptableObject
     public string prefix;
     public string[] characters;
     public string expression;
+    public string usePlayerName;
     [Space(10)]
     public string option;
     public string changeAffection;
-    public string skipTo;
+    public string skipLines;
     [Space(10)]
     public string changeBackground;
     public string nextScene;

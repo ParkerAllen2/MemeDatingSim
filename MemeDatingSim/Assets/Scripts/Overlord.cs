@@ -7,6 +7,7 @@ public class Overlord : Singleton<Overlord>
 {
     protected Overlord() { }
     public Character[] allCharacters;
+    public string playerName;
 
     public override void Awake()
     {

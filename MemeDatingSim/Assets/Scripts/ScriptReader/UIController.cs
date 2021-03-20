@@ -47,11 +47,19 @@ public class UIController : MonoBehaviour
 
     public void ChangeExpression(int expression)
     {
+        if(expression >= speaker.expressions.Length)
+        {
+            scriptReader.ScriptError("Array out of Bounds");
+        }
         stage[speaker.characterName].sprite = speaker.expressions[expression];
     }
 
     public void MoveCharacter(int position)
     {
+        if (position >= imagePositions.Length)
+        {
+            scriptReader.ScriptError("Array out of Bounds");
+        }
         stage[speaker.characterName].transform.position = imagePositions[position].position;
     }
 
@@ -74,12 +82,26 @@ public class UIController : MonoBehaviour
     IEnumerator TypeSentence()
     {
         yield return new WaitForSeconds(typingSpeed);
-        scriptReader.ReadNextWord();
+        scriptReader.TypeNextWord();
     }
 
     public void CreateButton(Response[] responses)
     {
+        int size = responses.Length;
+        optionButtons = new Button[size];
 
+        for (int i = 0; i < size; i++)
+        {
+            int x = i;
+            //Instatiant buttons as children of dialogue panel
+            optionButtons[i] = Instantiate(optionPrefab, optionsPanel.transform).GetComponentInChildren<Button>();
+            optionButtons[i].GetComponentInChildren<Text>().text = responses[i].reply;
+
+            string[] arr = responses[i].commands.ToArray();
+
+            //add onclick lisenter to start next dialogue
+            optionButtons[i].onClick.AddListener(delegate { scriptReader.ReadArray(arr); });
+        }
     }
 
     public void ClearButtons()
