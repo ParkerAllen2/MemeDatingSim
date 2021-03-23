@@ -2,21 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(DialogManager))]
+//[RequireComponent(typeof(DialogManager))]
+[RequireComponent(typeof(UIController))]
 public class ActManager : MonoBehaviour
 {
-    public Character mainTarget;
+    public Character mainCharacter;
     DialogManager dialogManager;
+    ScriptReader scriptReader;
 
     private void Start()
     {
-        dialogManager = GetComponent<DialogManager>();
+        scriptReader = GetComponent<ScriptReader>();
         LoadAct();
     }
 
     public void LoadAct()
     {
-        dialogManager.StartDialog(mainTarget.act.firstDialog);
-        mainTarget.act = mainTarget.act.nextAct;
+        if(mainCharacter.act != null)
+        {
+            scriptReader.StartScript(mainCharacter.act.script);
+            mainCharacter.act = mainCharacter.act.nextAct;
+        }
     }
 }
