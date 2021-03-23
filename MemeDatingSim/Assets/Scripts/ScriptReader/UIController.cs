@@ -14,7 +14,7 @@ public class UIController : MonoBehaviour
     public GameObject dialogPanel;
 
     public GameObject optionPrefab;
-    public GameObject optionsPanel;
+    public Transform optionsPanel;
     Button[] optionButtons;
 
     public Image portraitPrefab;
@@ -23,13 +23,18 @@ public class UIController : MonoBehaviour
     Character speaker;
 
 
-    public ScriptReader scriptReader;
+    ScriptReader scriptReader;
 
     private void Awake()
     {
         scriptReader = GetComponent<ScriptReader>();
         stage = new Dictionary<string, Image>();
         optionButtons = new Button[0];
+    }
+
+    private void Start()
+    {
+        ClearButtons();
     }
 
     public Character Speaker
@@ -42,6 +47,7 @@ public class UIController : MonoBehaviour
                 stage.Add(value.characterName, Instantiate(portraitPrefab, imagePositions[0]));
             }
             speaker = value;
+            ChangeExpression(0);
         }
     }
 
@@ -60,7 +66,8 @@ public class UIController : MonoBehaviour
         {
             scriptReader.ScriptError("Array out of Bounds");
         }
-        stage[speaker.characterName].transform.position = imagePositions[position].position;
+        stage[speaker.characterName].transform.SetParent(imagePositions[position]);
+        stage[speaker.characterName].transform.localPosition = Vector3.zero;
     }
 
     public void ChangeAffection(int amount)
@@ -68,21 +75,43 @@ public class UIController : MonoBehaviour
         speaker.affection += amount;
     }
 
-    public void CompleteSentence(string words)
+    public void ClickTextBox()
     {
-        dialogBox.text += words;
+        StopCoroutine(TypeSentence());
+        if (isTyping)
+        {
+            CompleteSentence();
+            isTyping = false;
+        }
+        else
+        {
+            StartCoroutine(TypeSentence());
+        }
     }
 
-    public void StartTyping(string word)
+    void CompleteSentence()
     {
-        dialogBox.text += word;
-        StartCoroutine(TypeSentence());
+        while (isTyping)
+        {
+            isTyping = scriptReader.TypeNextWord();
+        }
     }
 
     IEnumerator TypeSentence()
     {
-        yield return new WaitForSeconds(typingSpeed);
-        scriptReader.TypeNextWord();
+        scriptReader.ReadNextLine();
+        isTyping = true;
+        dialogBox.text = "";
+        while (isTyping)
+        {
+            isTyping = scriptReader.TypeNextWord();
+            yield return new WaitForSeconds(typingSpeed);
+        }
+    }
+
+    public void StartTyping(string word)
+    {
+        dialogBox.text += word + " ";
     }
 
     public void CreateButton(Response[] responses)
@@ -94,7 +123,7 @@ public class UIController : MonoBehaviour
         {
             int x = i;
             //Instatiant buttons as children of dialogue panel
-            optionButtons[i] = Instantiate(optionPrefab, optionsPanel.transform).GetComponentInChildren<Button>();
+            optionButtons[i] = Instantiate(optionPrefab, optionsPanel).GetComponentInChildren<Button>();
             optionButtons[i].GetComponentInChildren<Text>().text = responses[i].reply;
 
             string[] arr = responses[i].commands.ToArray();
@@ -108,7 +137,7 @@ public class UIController : MonoBehaviour
     {
         foreach (Button b in optionButtons)
         {
-            Destroy(b.gameObject);
+            Destroy(b.transform.parent.gameObject);
         }
         optionButtons = new Button[0];
     }

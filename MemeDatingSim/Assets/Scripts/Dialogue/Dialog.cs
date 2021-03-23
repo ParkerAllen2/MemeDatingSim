@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
+//[CreateAssetMenu]
 public class Dialog : ScriptableObject
 {
     public Character character;

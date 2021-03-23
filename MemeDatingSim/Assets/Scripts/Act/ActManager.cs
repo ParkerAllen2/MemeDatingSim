@@ -7,7 +7,6 @@ using UnityEngine;
 public class ActManager : MonoBehaviour
 {
     public Character mainCharacter;
-    public Character[] characters;
     DialogManager dialogManager;
     ScriptReader scriptReader;
 
@@ -21,8 +20,8 @@ public class ActManager : MonoBehaviour
     {
         if(mainCharacter.act != null)
         {
-            //scriptReader.StartScript(mainCharacter.act.script);
-            //mainCharacter.act = mainCharacter.act.nextAct;
+            scriptReader.StartScript(mainCharacter.act.script);
+            mainCharacter.act = mainCharacter.act.nextAct;
         }
     }
 }

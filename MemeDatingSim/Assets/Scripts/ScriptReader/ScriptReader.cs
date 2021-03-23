@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class ScriptReader : MonoBehaviour
@@ -10,10 +11,10 @@ public class ScriptReader : MonoBehaviour
 
     UIController uiController;
 
-    TextAsset script;
-    Queue<string> line;
+    public string[] lines;
+    public Queue<string> line;
     string word;
-    int currentline;
+    public int currentline;
 
     List<Response> responses;
 
@@ -24,41 +25,56 @@ public class ScriptReader : MonoBehaviour
         responses = new List<Response>();
     }
 
-    public void StartScript(TextAsset s)
+    public void StartScript(TextAsset script)
     {
-        script = s;
-        ReadNextLine();
-        TypeNextWord();
+        lines = Regex.Split(script.text, "\n");
+        uiController.ClickTextBox();
     }
 
-    void ReadNextLine()
+    public void ReadNextLine()
     {
-        wait = true;
-        currentline++;
-    }
-
-    public void TypeNextWord()
-    {
-        if (wait)
+        if (currentline >= lines.Length)
         {
+            print("Finish");
             return;
         }
-        uiController.StartTyping(ReadWord());
+        line.Clear();
+        foreach(string s in lines[currentline].Split(' '))
+        {
+            line.Enqueue(s);
+        }
+        currentline++;
+        wait = false;
     }
 
     public void ReadArray(string[] arr)
     {
-        foreach(string s in arr)
+        foreach (string s in arr)
         {
-            ReadWord(s);
+            line.Enqueue(s);
         }
+        wait = false;
+        while (TypeNextWord()) { }
+        uiController.ClickTextBox();
+        uiController.ClearButtons();
+    }
+
+    //return false if sentence done
+    public bool TypeNextWord()
+    {
+        if (wait)
+        {
+            return false;
+        }
+        uiController.StartTyping(ReadWord());
+        return true;
     }
 
     public string ReadWord()
     {
         if (line.Count == 0)
         {
-            ReadNextLine();
+            wait = true;
             return "";
         }
         return ReadWord(line.Dequeue());
@@ -83,13 +99,15 @@ public class ScriptReader : MonoBehaviour
         {
             commandExpression();
         }
-        else if (word.Equals(shortcuts.usePlayerName))
+        else if (word.StartsWith(shortcuts.usePlayerName))
         {
-            return Overlord.Instance.playerName;
+            return Overlord.Instance.playerName + 
+                word.Substring(shortcuts.usePlayerName.Length);
         }
         else if (word.Equals(shortcuts.option))
         {
             commandOption();
+            return "";
         }
         else if (word.Equals(shortcuts.changeAffection))
         {
@@ -106,6 +124,10 @@ public class ScriptReader : MonoBehaviour
         else if (word.Equals(shortcuts.nextScene))
         {
             commandNextScene();
+        }
+        else if (word.Equals(shortcuts.position))
+        {
+            commandPosition();
         }
 
         return ReadWord();
@@ -130,16 +152,15 @@ public class ScriptReader : MonoBehaviour
     void commandOption()
     {
         Response rep = new Response(line, shortcuts.prefix);
-        wait = true;
         responses.Add(rep);
 
-        ReadNextLine();
-        if(line.Peek().Equals(shortcuts.prefix + shortcuts.option))
+        if(lines[currentline].StartsWith(shortcuts.prefix + shortcuts.option))
         {
+            ReadNextLine();
             ReadWord();
             return;
         }
-
+        wait = true;
         uiController.CreateButton(responses.ToArray());
         responses.Clear();
     }
@@ -154,11 +175,7 @@ public class ScriptReader : MonoBehaviour
     {
         string[] par = GetParameters(1);
         int num = ConvertToInt(par[0]);
-        for(int i = 0; i < num; i++)
-        {
-            ReadNextLine();
-        }
-        wait = false;
+        currentline += num;
     }
 
     void commandChangeBackground()
@@ -174,9 +191,15 @@ public class ScriptReader : MonoBehaviour
         Overlord.Instance.LoadScene(par[0]);
     }
 
+    void commandPosition()
+    {
+        string[] par = GetParameters(1);
+        uiController.MoveCharacter(ConvertToInt(par[0]));
+    }
+
     string[] GetParameters(int x)
     {
-        if (line.Count >= x)
+        if (line.Count < x)
         {
             ScriptError("Missing aurgument");
             return null;
@@ -211,7 +234,7 @@ public class ScriptReader : MonoBehaviour
 
     public void ScriptError(string message)
     {
-        Debug.LogError(message + "\n on line " + currentline + " at " + word);
+        Debug.LogError(message + "\n on line " + (currentline - 1) + " at " + word);
     }
 }
 
@@ -223,11 +246,13 @@ public class Response
     public Response(Queue<string> line, string prefix)
     {
         commands = new List<string>();
-        foreach(string s in line)
+        while(line.Count > 0)
         {
+            string s = line.Dequeue();
             if (s.StartsWith(prefix))
             {
                 commands.Add(s);
+                commands.Add(line.Dequeue());
                 continue;
             }
             reply += s;

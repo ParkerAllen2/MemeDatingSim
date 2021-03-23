@@ -8,6 +8,7 @@ public class Commands : ScriptableObject
     public string prefix;
     public string[] characters;
     public string expression;
+    public string position;
     public string usePlayerName;
     [Space(10)]
     public string option;
