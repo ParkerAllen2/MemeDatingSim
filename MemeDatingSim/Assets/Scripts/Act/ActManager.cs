@@ -7,7 +7,6 @@ using UnityEngine;
 public class ActManager : MonoBehaviour
 {
     public Character mainCharacter;
-    DialogManager dialogManager;
     ScriptReader scriptReader;
 
     private void Start()

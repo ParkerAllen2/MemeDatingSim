@@ -5,6 +5,5 @@ using UnityEngine;
 public class Act : ScriptableObject
 {
     public Act nextAct;
-    public Dialog firstDialog;
     public TextAsset script;
 }

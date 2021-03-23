@@ -112,7 +112,7 @@ public class UIController : MonoBehaviour
 
     public void StartTyping(string word)
     {
-        dialogBox.text += word + " ";
+        dialogBox.text += word;
     }
 
     public void CreateButton(Response[] responses)

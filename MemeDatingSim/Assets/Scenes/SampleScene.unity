@@ -305,10 +305,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb63d8d52cca19459df931486d889fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allCharacters:
+  characters:
   - {fileID: 11400000, guid: 8e4c98e70016c7f44a628d051b6e6f5f, type: 2}
   - {fileID: 11400000, guid: 52984b3aea6c5ea448aea0d96ee39ed1, type: 2}
-  playerName: Bob
+  bakgrounds: []
+  player:
+    playerName: Bob
+    shortcut: play
 --- !u!4 &1656348817
 Transform:
   m_ObjectHideFlags: 0
@@ -404,13 +407,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1806246312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79e389d337246d64f9c6651d226d559c, type: 3}
+  m_Script: {fileID: 11500000, guid: 094bf270cbf82cb4e93105897085a00e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shortcuts: {fileID: 11400000, guid: 08a864cae7179104a9cc26878e669bdd, type: 2}
   wait: 0
-  lines: []
-  currentline: 0
 --- !u!1001 &7929017125698491369
 PrefabInstance:
   m_ObjectHideFlags: 0
