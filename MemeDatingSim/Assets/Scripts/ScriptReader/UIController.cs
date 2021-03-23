@@ -47,6 +47,7 @@ public class UIController : MonoBehaviour
                 stage.Add(value.characterName, Instantiate(portraitPrefab, imagePositions[0]));
             }
             speaker = value;
+            nameTag.text = speaker.characterName;
             ChangeExpression(0);
         }
     }
