@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 924c51de072620e42aa0b7f30135a085, type: 3}
   m_Name: Act1
   m_EditorClassIdentifier: 
-  nextAct: {fileID: 11400000}
-  firstDialog: {fileID: 0}
+  location: Test
+  nextActs:
+  - {fileID: 11400000}
   script: {fileID: 4900000, guid: d690992aeb3041d459b53ef2870c0c2c, type: 3}

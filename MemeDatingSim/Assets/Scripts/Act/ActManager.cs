@@ -1,26 +1,45 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 //[RequireComponent(typeof(DialogManager))]
-[RequireComponent(typeof(UIController))]
+[RequireComponent(typeof(ScriptReader))]
 public class ActManager : MonoBehaviour
 {
-    public Character mainCharacter;
     ScriptReader scriptReader;
+    public Background[] bakgrounds;
+    Act[] nextActs;
 
-    private void Start()
+    /*
+     * Given a charcter, get the characters act
+     * Start reading the act's script
+     * Store list of next possible acts
+     */
+    public void LoadAct(Act act)
     {
         scriptReader = GetComponent<ScriptReader>();
-        LoadAct();
-    }
-
-    public void LoadAct()
-    {
-        if(mainCharacter.act != null)
+        if (act != null)
         {
-            scriptReader.StartScript(mainCharacter.act.script);
-            mainCharacter.act = mainCharacter.act.nextAct;
+            scriptReader.StartScript(act.script);
+            nextActs = act.nextActs;
         }
     }
+
+    public bool HasBackground(string shortcut, Sprite background)
+    {
+        foreach (Background b in bakgrounds)
+        {
+            if (b.shortcut.Equals(shortcut))
+            {
+                background = b.sprite;
+                return true;
+            }
+        }
+        return false;
+    }
+}
+
+[System.Serializable]
+public class Background
+{
+    public Sprite sprite;
+    public string shortcut;
 }

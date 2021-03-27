@@ -7,12 +7,42 @@ public class Overlord : Singleton<Overlord>
 {
     protected Overlord() { }
     public Character[] characters;
-    public Background[] bakgrounds;
+    public Location[] scenes;
     public Player player;
+    public Act currentAct;
 
     public override void Awake()
     {
         base.Awake();
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    /*
+     * Loads in the act to act Manager
+     * !Happens Before Start!
+     */
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        ActManager am = FindObjectOfType<ActManager>();
+        if (am != null)
+        {
+            am.LoadAct(currentAct);
+        }
+    }
+
+    public void LoadScene(Character character)
+    {
+        currentAct = character.act;
+        LoadScene(GetScene(currentAct.location));
     }
 
     public void LoadScene(string scene)
@@ -20,6 +50,7 @@ public class Overlord : Singleton<Overlord>
         SceneManager.LoadScene(scene);
     }
 
+    //returns a true if character exsits and outs character
     public bool HasCharacter(string shortcut, out Character character)
     {
         foreach(Character c in characters)
@@ -34,20 +65,7 @@ public class Overlord : Singleton<Overlord>
         return false;
     }
 
-    public bool HasBackground(string shortcut, out Sprite background)
-    {
-        foreach (Background b in bakgrounds)
-        {
-            if (b.shortcut.Equals(shortcut))
-            {
-                background = b.sprite;
-                return true;
-            }
-        }
-        background = null;
-        return false;
-    }
-
+    //returns a true if shortcut for player name and outs player name
     public bool GetPlayer(string shortcut, out string pname)
     {
         pname = "";
@@ -59,18 +77,31 @@ public class Overlord : Singleton<Overlord>
         }
         return false;
     }
-}
 
-[System.Serializable]
-public class Background
-{
-    public Sprite sprite;
-    public string shortcut;
+    // Returns scene name of location or first location's scene name
+    public string GetScene(string shortcut)
+    {
+        foreach (Location s in scenes)
+        {
+            if (s.shortcut.Equals(shortcut) || s.sceneName.Equals(shortcut))
+            {
+                return s.sceneName;
+            }
+        }
+        return scenes[0].sceneName;
+    }
 }
 
 [System.Serializable]
 public class Player
 {
     public string playerName;
+    public string shortcut;
+}
+
+[System.Serializable]
+public class Location
+{
+    public string sceneName;
     public string shortcut;
 }
