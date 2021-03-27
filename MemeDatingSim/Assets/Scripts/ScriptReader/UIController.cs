@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(ScriptReader))]
 public class UIController : MonoBehaviour
 {
     public float typingSpeed = .02f;
@@ -22,12 +21,15 @@ public class UIController : MonoBehaviour
     Dictionary<string, Image> stage;
     Character speaker;
 
+    public SpriteRenderer background;
 
+    ActManager actManager;
     ScriptReader scriptReader;
 
     private void Awake()
     {
-        scriptReader = GetComponent<ScriptReader>();
+        scriptReader = GetComponentInParent<ScriptReader>();
+        actManager = GetComponentInParent<ActManager>();
         stage = new Dictionary<string, Image>();
         optionButtons = new Button[0];
     }
@@ -76,6 +78,14 @@ public class UIController : MonoBehaviour
         speaker.affection += amount;
     }
 
+    public void ChangeBackground(string back)
+    {
+        if(actManager.HasBackground(back, background.sprite))
+        {
+            scriptReader.ScriptError("Background does not exsits");
+        }
+    }
+
     public void ClickTextBox()
     {
         StopCoroutine(TypeSentence());
@@ -112,7 +122,7 @@ public class UIController : MonoBehaviour
 
     public void StartTyping(string word)
     {
-        dialogBox.text += word + " ";
+        dialogBox.text += word;
     }
 
     public void CreateButton(Response[] responses)

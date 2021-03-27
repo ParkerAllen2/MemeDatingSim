@@ -1,10 +1,9 @@
-﻿using System.IO;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu]
 public class Act : ScriptableObject
 {
-    public Act nextAct;
-    public Dialog firstDialog;
+    public string location;
+    public Act[] nextActs;
     public TextAsset script;
 }

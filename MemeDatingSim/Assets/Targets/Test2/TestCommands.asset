@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: TestCommands
   m_EditorClassIdentifier: 
   prefix: <
-  characters:
-  - ml
-  - an
-  expression: ex
-  position: pos
-  usePlayerName: play
-  option: op
-  changeAffection: aff
-  skipLines: skip
-  changeBackground: back
-  nextScene: scene
+  commands:
+  - {fileID: 11400000, guid: 280fde420795aa44f890ce0d3301f667, type: 2}
+  - {fileID: 11400000, guid: 1580260a13d00a341ab97d43fe3a54ad, type: 2}
+  - {fileID: 11400000, guid: 5c463e7a40529994b9e1c6d94f80b038, type: 2}
+  - {fileID: 11400000, guid: dccc775a78d8b8e4b9cb41387f19f5b6, type: 2}
+  - {fileID: 11400000, guid: 0b5edb0f512f13044b98b471cf296f53, type: 2}
+  - {fileID: 11400000, guid: ef26088183625ff48be0f304e0945ee7, type: 2}
+  - {fileID: 11400000, guid: fa1b52ea13a2dca40a3e5e69e58e996c, type: 2}
