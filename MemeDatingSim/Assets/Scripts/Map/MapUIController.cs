@@ -12,7 +12,7 @@ public class MapUIController : MonoBehaviour
     {
         locationPanels = GetComponentsInChildren<LocationPanel>();
         AddCharacters();
-        Invoke("PlayTheme", .5f);
+        PlayTheme();
     }
 
     void PlayTheme()
