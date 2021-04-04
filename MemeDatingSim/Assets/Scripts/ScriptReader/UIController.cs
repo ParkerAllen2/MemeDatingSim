@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public float typingSpeed = .02f;
     [HideInInspector] public bool isTyping;
 
     public Text nameTag;
@@ -116,7 +115,7 @@ public class UIController : MonoBehaviour
         while (isTyping)
         {
             isTyping = scriptReader.TypeNextWord();
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSeconds(Overlord.Instance.player.textSpeed);
         }
     }
 
@@ -151,5 +150,10 @@ public class UIController : MonoBehaviour
             Destroy(b.transform.parent.gameObject);
         }
         optionButtons = new Button[0];
+    }
+
+    public Character GetSpeaker()
+    {
+        return speaker;
     }
 }

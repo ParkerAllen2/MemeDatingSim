@@ -8,7 +8,7 @@ public class Overlord : Singleton<Overlord>
     protected Overlord() { }
     public Character[] characters;
     public Location[] scenes;
-    public Player player;
+    public PlayerSettings player;
     public Act currentAct;
 
     public override void Awake()
@@ -90,13 +90,6 @@ public class Overlord : Singleton<Overlord>
         }
         return scenes[0].sceneName;
     }
-}
-
-[System.Serializable]
-public class Player
-{
-    public string playerName;
-    public string shortcut;
 }
 
 [System.Serializable]

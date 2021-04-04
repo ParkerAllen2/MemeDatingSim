@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapUIController : MonoBehaviour
 {
+    public string themeMusic;
     LocationPanel[] locationPanels;
 
 
@@ -11,6 +12,12 @@ public class MapUIController : MonoBehaviour
     {
         locationPanels = GetComponentsInChildren<LocationPanel>();
         AddCharacters();
+        PlayTheme();
+    }
+
+    void PlayTheme()
+    {
+        SoundManager.Instance.Play(themeMusic);
     }
 
     void AddCharacters()
