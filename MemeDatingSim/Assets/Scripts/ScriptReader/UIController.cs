@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(ScriptReader))]
 public class UIController : MonoBehaviour
 {
-    public float typingSpeed = .02f;
     [HideInInspector] public bool isTyping;
 
     public Text nameTag;
@@ -22,12 +20,15 @@ public class UIController : MonoBehaviour
     Dictionary<string, Image> stage;
     Character speaker;
 
+    public SpriteRenderer background;
 
+    ActManager actManager;
     ScriptReader scriptReader;
 
     private void Awake()
     {
-        scriptReader = GetComponent<ScriptReader>();
+        scriptReader = GetComponentInParent<ScriptReader>();
+        actManager = GetComponentInParent<ActManager>();
         stage = new Dictionary<string, Image>();
         optionButtons = new Button[0];
     }
@@ -76,6 +77,14 @@ public class UIController : MonoBehaviour
         speaker.affection += amount;
     }
 
+    public void ChangeBackground(string back)
+    {
+        if(actManager.HasBackground(back, background.sprite))
+        {
+            scriptReader.ScriptError("Background does not exsits");
+        }
+    }
+
     public void ClickTextBox()
     {
         StopCoroutine(TypeSentence());
@@ -106,7 +115,7 @@ public class UIController : MonoBehaviour
         while (isTyping)
         {
             isTyping = scriptReader.TypeNextWord();
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSeconds(Overlord.Instance.player.textSpeed);
         }
     }
 
@@ -141,5 +150,10 @@ public class UIController : MonoBehaviour
             Destroy(b.transform.parent.gameObject);
         }
         optionButtons = new Button[0];
+    }
+
+    public Character GetSpeaker()
+    {
+        return speaker;
     }
 }

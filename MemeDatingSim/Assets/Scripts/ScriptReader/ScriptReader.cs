@@ -17,7 +17,7 @@ public class ScriptReader : MonoBehaviour
 
     private void Awake()
     {
-        uiController = GetComponent<UIController>();
+        uiController = GetComponentInChildren<UIController>();
         command = new CommandController(shortcuts, this, uiController);
         line = new Queue<string>();
     }
