@@ -173,9 +173,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_ReferenceResolution: {x: 1024, y: 768}
+  m_ScreenMatchMode: 2
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -532,33 +532,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Overlord
       objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: scenes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: characterToLoad
-      value: 
-      objectReference: {fileID: 11400000, guid: 8e4c98e70016c7f44a628d051b6e6f5f,
-        type: 2}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: scenes.Array.data[0].sceneName
-      value: SampleScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: scenes.Array.data[0].shortcut
-      value: Test
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 11400000, guid: 5345e1f8bb62e4847bcac6a21505feea,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5d06a59d76a674291a7afbfc24fa9d, type: 3}
 --- !u!1001 &5509037885623163186

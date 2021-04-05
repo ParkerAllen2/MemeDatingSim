@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "pla", menuName = "Command/pla")]
+[CreateAssetMenu]
 public class PlayerSettings : ScriptableObject
 {
     public string playerName;

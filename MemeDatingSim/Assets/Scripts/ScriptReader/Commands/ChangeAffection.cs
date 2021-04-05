@@ -8,6 +8,6 @@ public class ChangeAffection : Command
     public override void Action(ScriptReader sr, UIController uic)
     {
         string[] par = sr.GetParameters(1);
-        uic.ChangeAffection(sr.ConvertToInt(par[0]));
+        uic.Speaker.affection += sr.ConvertToInt(par[0]);
     }
 }

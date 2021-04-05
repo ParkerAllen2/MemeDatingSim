@@ -47,10 +47,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8e4c98e70016c7f44a628d051b6e6f5f, type: 2}
   - {fileID: 11400000, guid: 52984b3aea6c5ea448aea0d96ee39ed1, type: 2}
   scenes:
-  - sceneName: Map
-    shortcut: map
-  - sceneName: 
-    shortcut: 
-  player:
-    playerName: Paul
-    shortcut: play
+  - sceneName: SampleScene
+    shortcut: Test
+  player: {fileID: 11400000, guid: 5345e1f8bb62e4847bcac6a21505feea, type: 2}
+  currentAct: {fileID: 0}

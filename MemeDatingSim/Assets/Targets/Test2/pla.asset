@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Bob
   shortcut: play
-  textSpeed: 0.2
+  textSpeed: 0.1
   music: 1
   sfx: 1
   master: 1

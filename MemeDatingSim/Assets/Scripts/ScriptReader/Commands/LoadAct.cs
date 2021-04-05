@@ -7,6 +7,6 @@ public class LoadAct : Command
 {
     public override void Action(ScriptReader sr, UIController uic)
     {
-        Overlord.Instance.LoadScene(uic.GetSpeaker());
+        Overlord.Instance.LoadScene(uic.Speaker);
     }
 }
