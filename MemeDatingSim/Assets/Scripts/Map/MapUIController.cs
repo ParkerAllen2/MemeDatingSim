@@ -17,7 +17,7 @@ public class MapUIController : MonoBehaviour
 
     void PlayTheme()
     {
-        SoundManager.Instance.Play(themeMusic);
+        SoundManager.Instance.StartPlayingTheme(themeMusic);
     }
 
     void AddCharacters()

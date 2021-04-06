@@ -463,6 +463,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3549015823559754731, guid: a958d87dd4995dd41b0f272785e76e99,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549015823559754731, guid: a958d87dd4995dd41b0f272785e76e99,
+        type: 3}
+      propertyPath: sounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549015823559754731, guid: a958d87dd4995dd41b0f272785e76e99,
+        type: 3}
+      propertyPath: sounds.Array.data[0].soundName
+      value: glitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549015823559754731, guid: a958d87dd4995dd41b0f272785e76e99,
+        type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac5ab5b3450b1954d8f9d3e48aa2f48a, type: 3}
+    - target: {fileID: 3549015823559754731, guid: a958d87dd4995dd41b0f272785e76e99,
+        type: 3}
+      propertyPath: sounds.Array.data[0].type
+      value: music
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549015823559754731, guid: a958d87dd4995dd41b0f272785e76e99,
+        type: 3}
+      propertyPath: sounds.Array.data[0].isLoop
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a958d87dd4995dd41b0f272785e76e99, type: 3}
 --- !u!1001 &4170950250739777442

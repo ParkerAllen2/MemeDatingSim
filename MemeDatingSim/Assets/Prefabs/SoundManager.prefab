@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3549015823559754728}
-  - component: {fileID: 3549015823559754731}
+  - component: {fileID: 6639137235910616191}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3549015823559754731
+--- !u!114 &6639137235910616191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,4 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 11400000, guid: d03e8064c3ae08a418c45878ccfd26b6, type: 2}
+  - soundName: glitter
+    type: music
+    clip: {fileID: 8300000, guid: ac5ab5b3450b1954d8f9d3e48aa2f48a, type: 3}
+    maxVolume: 1
+    pitch: 1
+    isLoop: 1
+    hasCooldown: 0
+    source: {fileID: 0}

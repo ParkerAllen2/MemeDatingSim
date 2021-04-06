@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
-public class Sound : ScriptableObject
+[System.Serializable]
+public class Sound
 {
     public string soundName;
     public string type;

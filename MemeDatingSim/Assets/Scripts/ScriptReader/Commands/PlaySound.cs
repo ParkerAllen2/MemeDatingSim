@@ -8,6 +8,9 @@ public class PlaySound : Command
     public override void Action(ScriptReader sr, UIController uic)
     {
         string[] par = sr.GetParameters(1);
-        uic.MoveCharacter(sr.ConvertToInt(par[0]));
+        if (!SoundManager.Instance.Play(par[0]))
+        {
+            sr.ScriptError("Sound " + par[0] + " Does Not Exists");
+        }
     }
 }

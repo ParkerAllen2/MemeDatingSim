@@ -1,4 +1,4 @@
-<ml Hello there, <play!
+<theme glitter <ml Hello there, <play!
 This is a test
 <an <pos 1 Did it work?
 <o Yes
