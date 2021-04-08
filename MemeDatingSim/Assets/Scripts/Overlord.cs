@@ -50,6 +50,11 @@ public class Overlord : Singleton<Overlord>
         SceneManager.LoadScene(scene);
     }
 
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
     //returns a true if character exsits and outs character
     public bool HasCharacter(string shortcut, out Character character)
     {

@@ -72,14 +72,50 @@ public class UIController : MonoBehaviour
         stage[speaker.characterName].transform.localPosition = Vector3.zero;
     }
 
-    public void ChangeAffection(int amount)
+    public void StartShakeCharacter(float mag, float dur)
     {
-        speaker.affection += amount;
+        StartCoroutine(ShakeCharacter(mag, dur));
+    }
+
+    IEnumerator ShakeCharacter(float mag, float dur)
+    {
+        Transform t = stage[speaker.characterName].transform;
+        Vector3 origin = t.localPosition;
+        float elapsed = 0;
+        while(elapsed < dur)
+        {
+            float x = Random.Range(-1f, 1f) * mag;
+            t.localPosition = new Vector3(x, origin.y);
+            yield return null;
+            elapsed += Time.deltaTime;
+        }
+        t.localPosition = origin;
+    }
+
+    public void StartCharacterHop(float gravity, float jumpForce)
+    {
+        StartCoroutine(CharacterHop(gravity, jumpForce));
+    }
+
+    IEnumerator CharacterHop(float gra, float force)
+    {
+        Transform t = stage[speaker.characterName].transform;
+        Vector3 origin = t.localPosition;
+        float f = force + gra;
+        float y = origin.y + f;
+        while (y > origin.y)
+        {
+            t.localPosition = new Vector3(origin.x, y);
+            yield return null;
+            f += gra;
+            y += f;
+        }
+        t.localPosition = origin;
     }
 
     public void ChangeBackground(string back)
     {
-        if(actManager.HasBackground(back, background.sprite))
+        if(!actManager.HasBackground(back, background.sprite))
         {
             scriptReader.ScriptError("Background does not exsits");
         }
@@ -136,9 +172,8 @@ public class UIController : MonoBehaviour
             optionButtons[i] = Instantiate(optionPrefab, optionsPanel).GetComponentInChildren<Button>();
             optionButtons[i].GetComponentInChildren<Text>().text = responses[i].reply;
 
-            string[] arr = responses[i].commands.ToArray();
-
             //add onclick lisenter to start next dialogue
+            string[] arr = responses[i].commands.ToArray();
             optionButtons[i].onClick.AddListener(delegate { scriptReader.ReadArray(arr); });
         }
     }
@@ -152,8 +187,8 @@ public class UIController : MonoBehaviour
         optionButtons = new Button[0];
     }
 
-    public Character GetSpeaker()
+    public Image GetImageOfCharacter(string characterName)
     {
-        return speaker;
+        return stage[characterName];
     }
 }

@@ -190,27 +190,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
         type: 3}
-      propertyPath: scenes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: characterToLoad
-      value: 
-      objectReference: {fileID: 11400000, guid: 8e4c98e70016c7f44a628d051b6e6f5f,
-        type: 2}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: scenes.Array.data[0].sceneName
-      value: SampleScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
-      propertyPath: scenes.Array.data[0].shortcut
-      value: sample
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
-        type: 3}
       propertyPath: currentAct
       value: 
       objectReference: {fileID: 11400000, guid: 546ee000dca7ba1408d027abdbb2ee34,

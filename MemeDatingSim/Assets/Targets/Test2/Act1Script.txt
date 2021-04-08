@@ -1,8 +1,8 @@
-<ml Hello there, <play!
+<theme glitter <ml Hello there, <play!
 This is a test
 <an <pos 1 Did it work?
 <o Yes
 <o No <skip 1
-Great! <skip 1
-oh well. . .
+<hop Great! <skip 1
+<shake oh well. . .
 <scene
