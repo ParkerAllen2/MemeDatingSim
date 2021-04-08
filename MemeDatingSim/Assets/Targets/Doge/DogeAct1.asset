@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924c51de072620e42aa0b7f30135a085, type: 3}
+  m_Name: DogeAct1
+  m_EditorClassIdentifier: 
+  location: gym
+  nextActs:
+  - {fileID: 11400000, guid: 910e9240cb7e97643ab988019f99c2f2, type: 2}
+  - {fileID: 11400000}
+  script: {fileID: 4900000, guid: ed62c60f8b572834ea47e33af414c2a4, type: 3}

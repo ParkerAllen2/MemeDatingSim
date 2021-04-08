@@ -1409,7 +1409,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5509037885147619303}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4170950252638379647, guid: 7b5d06a59d76a674291a7afbfc24fa9d,
+          type: 3}
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5509037885147952045
 GameObject:
   m_ObjectHideFlags: 0
@@ -2706,7 +2718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.14117648}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3489,27 +3501,22 @@ PrefabInstance:
     - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -6.3999786
-      objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
@@ -3666,27 +3673,22 @@ PrefabInstance:
     - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -6.3999786
-      objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
@@ -3843,27 +3845,22 @@ PrefabInstance:
     - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4981754005110238417, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -6.3999786
-      objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981754005510333261, guid: 6a6625893dc2c4c46b0d02a31c5a1f92,
         type: 3}
@@ -4017,11 +4014,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5509037885147952018}
     m_Modifications:
-    - target: {fileID: 1808453629237048410, guid: f6f93303ec9a9c640a46ccb1bafa0008,
-        type: 3}
-      propertyPath: m_Name
-      value: TextSlider
-      objectReference: {fileID: 0}
     - target: {fileID: 1808453629237048412, guid: f6f93303ec9a9c640a46ccb1bafa0008,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4032,15 +4024,20 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeTextSpeed
       objectReference: {fileID: 0}
+    - target: {fileID: 1808453629237048412, guid: f6f93303ec9a9c640a46ccb1bafa0008,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1808453630571872451, guid: f6f93303ec9a9c640a46ccb1bafa0008,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1808453630571872451, guid: f6f93303ec9a9c640a46ccb1bafa0008,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1808453630571872451, guid: f6f93303ec9a9c640a46ccb1bafa0008,
         type: 3}
@@ -4160,7 +4157,7 @@ PrefabInstance:
     - target: {fileID: 1808453631245782879, guid: f6f93303ec9a9c640a46ccb1bafa0008,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1808453631245782879, guid: f6f93303ec9a9c640a46ccb1bafa0008,
         type: 3}

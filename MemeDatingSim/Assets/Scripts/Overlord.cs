@@ -42,12 +42,18 @@ public class Overlord : Singleton<Overlord>
     public void LoadScene(Character character)
     {
         currentAct = character.act;
+        character.act = null;
         LoadScene(GetScene(currentAct.location));
     }
 
     public void LoadScene(string scene)
     {
         SceneManager.LoadScene(scene);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 
     //returns a true if character exsits and outs character

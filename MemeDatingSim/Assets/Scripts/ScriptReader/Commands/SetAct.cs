@@ -14,6 +14,6 @@ public class SetAct : Command
     {
         int nextAct = sr.ConvertToInt(sr.GetParameters(1)[0]);
         Act a = Overlord.Instance.currentAct.nextActs[nextAct];
-        uic.GetSpeaker().act = a;
+        uic.Speaker.act = a;
     }
 }

@@ -1,0 +1,38 @@
+<isth <pos 1 <exp 4 <act 1 . . .
+
+<hop <exp 2 <dog <pos 0 <exp 1 Montresor!
+
+<pos 3
+
+<isth <exp 1 My dear Fortunato, you are
+luckily met. How remarkably well
+you are looking today.
+
+...
+
+<exp 3 But I have received a pipe of what
+passes for Amontillado, and I have
+my doubts about it.
+
+<dog <shake <exp 2 How? Amontillado, a pipe?
+Impossible! And in the middle of
+the carnival!
+
+<isth As I said, I have my doubts, <exp 4 and I
+was silly enough to pay the full
+Amontillado price without consulting
+you in the matter.
+
+<hop
+
+You were not to be found, and I
+was fearful of losing a bargain.
+
+<dog <shake <exp 0 Amontillado!
+
+<isth <exp 0 I do have my doubts, though.
+
+<dog <shake <exp 1 Amontillado!
+
+<act 0 
+<scene

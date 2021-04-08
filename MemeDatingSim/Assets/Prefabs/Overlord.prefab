@@ -44,13 +44,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 11400000, guid: 8e4c98e70016c7f44a628d051b6e6f5f, type: 2}
+  - {fileID: 11400000, guid: 83316868518cd9547b2cda3a2e85eb22, type: 2}
+  - {fileID: 11400000, guid: 92d4155a5d3cfaf4eaa15e76f46ab0da, type: 2}
   - {fileID: 11400000, guid: 52984b3aea6c5ea448aea0d96ee39ed1, type: 2}
+  - {fileID: 11400000, guid: 1a9c5c44dfdbe624eb9261c1dd7d2631, type: 2}
   scenes:
-  - sceneName: Map
-    shortcut: map
-  - sceneName: 
-    shortcut: 
-  player:
-    playerName: Paul
-    shortcut: play
+  - sceneName: SampleScene
+    shortcut: test
+  - sceneName: SampleScene
+    shortcut: cafe
+  - sceneName: SampleScene
+    shortcut: gym
+  - sceneName: SampleScene
+    shortcut: library
+  - sceneName: SampleScene
+    shortcut: parking
+  - sceneName: SampleScene
+    shortcut: theater
+  player: {fileID: 11400000, guid: 5345e1f8bb62e4847bcac6a21505feea, type: 2}
+  currentAct: {fileID: 11400000, guid: 546ee000dca7ba1408d027abdbb2ee34, type: 2}
