@@ -1,0 +1,19 @@
+<dog <pos 1 <exp 2 <act 1 You do not comprehend?
+
+<isth <pos 3 Not I.
+
+<dog <shake Than you are not of the brotherhood.
+
+<isth How?
+
+<dog <exp 0 You are not of the Masons.
+
+<isth Yes, yes. Yes, yes.
+
+<dog <hop <exp 2 You? Impossible! A mason?
+
+<isth A Mason.
+
+<dog <exp 1 A sign, a sign!
+
+<scene

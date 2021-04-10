@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924c51de072620e42aa0b7f30135a085, type: 3}
+  m_Name: KatoriAct1
+  m_EditorClassIdentifier: 
+  location: library
+  nextActs:
+  - {fileID: 11400000, guid: 1b02c796cb7b0a54d9bc680c6c3cd284, type: 2}
+  - {fileID: 11400000}
+  script: {fileID: 4900000, guid: 2b2ebc7323e9cb447a99a6366e012775, type: 3}

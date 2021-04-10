@@ -8,7 +8,7 @@ public class PlayerSettings : ScriptableObject
     public string playerName;
     public string shortcut;
 
-    [Range(0f, .5f)]
+    [Range(0f, .3f)]
     public float textSpeed = .5f;
     [Space(10)]
 

@@ -42,6 +42,7 @@ public class Overlord : Singleton<Overlord>
     public void LoadScene(Character character)
     {
         currentAct = character.act;
+        character.act = null;
         LoadScene(GetScene(currentAct.location));
     }
 

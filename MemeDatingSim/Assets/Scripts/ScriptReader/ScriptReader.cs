@@ -35,7 +35,7 @@ public class ScriptReader : MonoBehaviour
             print("Finish");
             return;
         }
-        if (lines[currentline].Equals(""))
+        if (string.IsNullOrWhiteSpace(lines[currentline]))
         {
             currentline++;
             ReadNextLine();
