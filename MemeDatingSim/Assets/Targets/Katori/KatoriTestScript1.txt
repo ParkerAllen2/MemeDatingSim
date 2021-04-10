@@ -1,6 +1,6 @@
 <isth <pos 1 <exp 4 <act 1 . . .
 
-<hop <exp 2 <dog <pos 0 <exp 1 Montresor!
+<hop <exp 2 <dog <pos 0 <exp 1 <flip Montresor!
 
 <pos 3
 

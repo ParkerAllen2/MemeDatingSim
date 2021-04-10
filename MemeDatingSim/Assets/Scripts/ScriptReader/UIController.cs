@@ -9,7 +9,7 @@ public class UIController : MonoBehaviour
 
     public Text nameTag;
     public Text dialogBox;
-    public GameObject dialogPanel;
+    public TextBoxColorer TextBoxColorer;
 
     public GameObject optionPrefab;
     public Transform optionsPanel;
@@ -49,6 +49,7 @@ public class UIController : MonoBehaviour
             }
             speaker = value;
             nameTag.text = speaker.characterName;
+            TextBoxColorer.ChangeColors(speaker.textboxColors);
             ChangeExpression(0);
         }
     }
@@ -68,8 +69,8 @@ public class UIController : MonoBehaviour
         {
             scriptReader.ScriptError("Array out of Bounds");
         }
-        stage[speaker.characterName].transform.SetParent(imagePositions[position]);
-        stage[speaker.characterName].transform.localPosition = Vector3.zero;
+        stage[speaker.characterName].rectTransform.SetParent(imagePositions[position]);
+        stage[speaker.characterName].rectTransform.anchoredPosition = Vector3.zero;
     }
 
     public void StartShakeCharacter(float mag, float dur)
@@ -79,17 +80,17 @@ public class UIController : MonoBehaviour
 
     IEnumerator ShakeCharacter(float mag, float dur)
     {
-        Transform t = stage[speaker.characterName].transform;
-        Vector3 origin = t.localPosition;
+        RectTransform t = stage[speaker.characterName].rectTransform;
+        Vector3 origin = t.anchoredPosition;
         float elapsed = 0;
         while(elapsed < dur)
         {
             float x = Random.Range(-1f, 1f) * mag;
-            t.localPosition = new Vector3(x, origin.y);
+            t.anchoredPosition = new Vector3(x, origin.y);
             yield return null;
             elapsed += Time.deltaTime;
         }
-        t.localPosition = origin;
+        t.anchoredPosition = origin;
     }
 
     public void StartCharacterHop(float gravity, float jumpForce)
@@ -99,18 +100,18 @@ public class UIController : MonoBehaviour
 
     IEnumerator CharacterHop(float gra, float force)
     {
-        Transform t = stage[speaker.characterName].transform;
-        Vector3 origin = t.localPosition;
+        RectTransform t = stage[speaker.characterName].rectTransform;
+        Vector3 origin = t.anchoredPosition;
         float f = force + gra;
         float y = origin.y + f;
         while (y > origin.y)
         {
-            t.localPosition = new Vector3(origin.x, y);
+            t.anchoredPosition = new Vector3(origin.x, y);
             yield return null;
             f += gra;
             y += f;
         }
-        t.localPosition = origin;
+        t.anchoredPosition = origin;
     }
 
     public void ChangeBackground(string back)

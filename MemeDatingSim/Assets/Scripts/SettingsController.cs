@@ -10,7 +10,7 @@ public class SettingsController : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
 
-    public void SetSliders()
+    public void Start()
     {
         textSlider.value = Overlord.Instance.player.textSpeed;
         masterSlider.value = Overlord.Instance.player.master;
