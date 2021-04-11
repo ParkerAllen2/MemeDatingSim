@@ -25,12 +25,15 @@ public class UIController : MonoBehaviour
     ActManager actManager;
     ScriptReader scriptReader;
 
+    ParticleSystem[] affectionParticles;
+
     private void Awake()
     {
         scriptReader = GetComponentInParent<ScriptReader>();
         actManager = GetComponentInParent<ActManager>();
         stage = new Dictionary<string, Image>();
         optionButtons = new Button[0];
+        affectionParticles = GetComponentsInChildren<ParticleSystem>();
     }
 
     private void Start()
@@ -191,5 +194,15 @@ public class UIController : MonoBehaviour
     public Image GetImageOfCharacter(string characterName)
     {
         return stage[characterName];
+    }
+
+    public Image GetImageOfCharacter()
+    {
+        return stage[speaker.characterName];
+    }
+
+    public ParticleSystem[] AffectionParticles
+    {
+        get { return affectionParticles; }
     }
 }

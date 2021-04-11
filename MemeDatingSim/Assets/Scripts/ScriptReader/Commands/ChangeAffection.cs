@@ -7,7 +7,14 @@ public class ChangeAffection : Command
 {
     public override void Action(ScriptReader sr, UIController uic)
     {
-        string[] par = sr.GetParameters(1);
-        uic.Speaker.affection += sr.ConvertToInt(par[0]);
+        int amount = sr.ConvertToInt(sr.GetParameters(1)[0]);
+        uic.Speaker.affection += amount;
+
+        amount = (amount > 0) ? 1 : 0;
+        ParticleSystem ps = uic.AffectionParticles[amount];
+        ps.Play();
+        Vector3 pos = Camera.main.ScreenToWorldPoint(uic.GetImageOfCharacter().rectTransform.position);
+        pos.z = 0;
+        ps.transform.position = pos;
     }
 }

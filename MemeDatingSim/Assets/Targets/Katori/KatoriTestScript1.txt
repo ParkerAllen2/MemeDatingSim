@@ -1,8 +1,8 @@
 <isth <pos 1 <exp 4 <act 1 . . .
 
-<hop <exp 2 <dog <pos 0 <exp 1 <flip Montresor!
+<hop <aff -1 <exp 2 <dog <pos 0 <exp 1 <flip Montresor!
 
-<pos 3
+<pos 3 <aff 1
 
 <isth <exp 1 My dear Fortunato, you are
 luckily met. How remarkably well

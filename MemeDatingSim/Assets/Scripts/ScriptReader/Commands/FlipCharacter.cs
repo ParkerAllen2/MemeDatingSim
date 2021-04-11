@@ -5,7 +5,7 @@ public class FlipCharacter : Command
 {
     public override void Action(ScriptReader sr, UIController uic)
     {
-        Transform t = uic.GetImageOfCharacter(uic.Speaker.characterName).transform;
+        Transform t = uic.GetImageOfCharacter().transform;
         float y = (t.rotation.y == 0) ? 180 : 0;
         t.rotation = Quaternion.Euler(0, y, 0);
     }
