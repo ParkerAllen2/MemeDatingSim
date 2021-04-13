@@ -1,8 +1,0 @@
-<theme glitter <pluto <pos 1 <act 0 Hello there, <play!
-This was a test
-Did it work?
-<o Yes
-<o No <skip 1
-<hop Great! <skip 1
-<shake oh well. . .
-<scene

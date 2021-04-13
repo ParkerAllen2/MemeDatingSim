@@ -48,6 +48,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 92d4155a5d3cfaf4eaa15e76f46ab0da, type: 2}
   - {fileID: 11400000, guid: 52984b3aea6c5ea448aea0d96ee39ed1, type: 2}
   - {fileID: 11400000, guid: 1a9c5c44dfdbe624eb9261c1dd7d2631, type: 2}
+  - {fileID: 11400000, guid: 46daf3bcccea1184ab05ded5a628a4bd, type: 2}
   scenes:
   - sceneName: SampleScene
     shortcut: test

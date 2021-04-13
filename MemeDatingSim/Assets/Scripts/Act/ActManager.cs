@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
-//[RequireComponent(typeof(DialogManager))]
 [RequireComponent(typeof(ScriptReader))]
 public class ActManager : MonoBehaviour
 {
@@ -23,13 +23,13 @@ public class ActManager : MonoBehaviour
         }
     }
 
-    public bool HasBackground(string shortcut, Sprite background)
+    public bool HasBackground(string shortcut, ref SpriteRenderer background)
     {
         foreach (Background b in bakgrounds)
         {
             if (b.shortcut.Equals(shortcut))
             {
-                background = b.sprite;
+                background.sprite = b.sprite;
                 return true;
             }
         }

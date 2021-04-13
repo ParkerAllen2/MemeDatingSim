@@ -8,6 +8,15 @@ public class SkipLines : Command
     public override void Action(ScriptReader sr, UIController uic)
     {
         string[] par = sr.GetParameters(1);
-        sr.CurrentLine += sr.ConvertToInt(par[0]);
+        int counter = sr.ConvertToInt(par[0]);
+        int i = 0;
+        while (i < counter)
+        {
+            if (!string.IsNullOrWhiteSpace(sr.GetLine(sr.CurrentLine)))
+            {
+                i++;
+            }
+            sr.CurrentLine++;
+        }
     }
 }

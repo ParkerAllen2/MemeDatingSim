@@ -10,7 +10,7 @@ public class Option : Command
     public override void Action(ScriptReader sr, UIController uic)
     {
         Response rep = sr.GetResponse();
-        responses.Add(rep);
+        responses.Insert(0, rep);
 
         if (sr.StartingShortcutCheck(shortcut))
         {

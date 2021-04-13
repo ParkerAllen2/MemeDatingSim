@@ -28,6 +28,11 @@ public class ScriptReader : MonoBehaviour
         uiController.ClickTextBox();
     }
 
+    /*
+     * Returns if no more lines left
+     * Returns if line is empty
+     * Enqueues current line that is split by spaces
+     */
     public void ReadNextLine()
     {
         if (currentline >= lines.Length)
@@ -46,6 +51,7 @@ public class ScriptReader : MonoBehaviour
         currentline++;
     }
 
+    //Mainly used to read the commands in a response then read the next line
     public void ReadArray(string[] arr)
     {
         EnqueueLine(arr);
@@ -54,6 +60,7 @@ public class ScriptReader : MonoBehaviour
         uiController.ClearButtons();
     }
 
+    //Enqueues string array to Queue then waits
     void EnqueueLine(string[] arr)
     {
         line.Clear();
@@ -64,7 +71,11 @@ public class ScriptReader : MonoBehaviour
         wait = false;
     }
 
-    //return false if sentence done
+    /*
+     * return false and wait if sentence done
+     * if reads a non-command type it and return true
+     * else read next word
+     */
     public bool TypeNextWord()
     {
         if (wait || line.Count == 0)
@@ -82,6 +93,10 @@ public class ScriptReader : MonoBehaviour
         return TypeNextWord();
     }
 
+    /*
+     * returns true if needs to type a word
+     * else runs command and try to TypeNextWord
+     */
     public bool ReadWord(string word, out string rtn)
     {
         rtn = "";
@@ -171,6 +186,11 @@ public class ScriptReader : MonoBehaviour
         get { return currentline; }
         set { currentline = value; }
     }
+
+    public string GetLine(int i)
+    {
+        return lines[i];
+    }
 }
 
 public class Response
@@ -190,7 +210,7 @@ public class Response
                 commands.Add(line.Dequeue());
                 continue;
             }
-            reply += s;
+            reply += s + " ";
         }
     }
 }

@@ -75,7 +75,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 0.31
+  m_PixelsPerUnitMultiplier: 0.01
 --- !u!114 &4682423935390061133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +130,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 130, y: 130}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &4682423935430612644
 CanvasRenderer:
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.01
 --- !u!114 &4682423935430612646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avatarScaleInc: 1.2
   normal: {r: 1, g: 1, b: 1, a: 1}
-  higlight: {r: 0, g: 0.37019837, b: 0.98039216, a: 1}
+  higlight: {r: 0.6981132, g: 0.055980783, b: 0.4311938, a: 1}
   avatar: {fileID: 4682423935566400637}
   avatarHolder: {fileID: 4682423935390061122}
   panelSizer: {fileID: 7417118201129828248}

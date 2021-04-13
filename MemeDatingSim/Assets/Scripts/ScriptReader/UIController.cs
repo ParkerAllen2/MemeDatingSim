@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     [HideInInspector] public bool isTyping;
+    bool waitForResponse;
 
     public Text nameTag;
     public Text dialogBox;
@@ -41,6 +42,8 @@ public class UIController : MonoBehaviour
         ClearButtons();
     }
 
+    //gets the speaker
+    //adds changes speaker, name tag, text box style and add character to stage
     public Character Speaker
     {
         get { return speaker; }
@@ -57,6 +60,7 @@ public class UIController : MonoBehaviour
         }
     }
 
+    //changes expression of speaker to given int
     public void ChangeExpression(int expression)
     {
         if(expression >= speaker.expressions.Length)
@@ -66,6 +70,13 @@ public class UIController : MonoBehaviour
         stage[speaker.characterName].sprite = speaker.expressions[expression];
     }
 
+    /*
+     * move speaker to position
+     * 0 = off stage
+     * 1 = left
+     * 2 = center
+     * 3 = right
+     */
     public void MoveCharacter(int position)
     {
         if (position >= imagePositions.Length)
@@ -76,6 +87,7 @@ public class UIController : MonoBehaviour
         stage[speaker.characterName].rectTransform.anchoredPosition = Vector3.zero;
     }
 
+    //shakes speaker based on values in command
     public void StartShakeCharacter(float mag, float dur)
     {
         StartCoroutine(ShakeCharacter(mag, dur));
@@ -96,6 +108,7 @@ public class UIController : MonoBehaviour
         t.anchoredPosition = origin;
     }
 
+    //speaker hops based on values in command
     public void StartCharacterHop(float gravity, float jumpForce)
     {
         StartCoroutine(CharacterHop(gravity, jumpForce));
@@ -119,14 +132,24 @@ public class UIController : MonoBehaviour
 
     public void ChangeBackground(string back)
     {
-        if(!actManager.HasBackground(back, background.sprite))
+        if(!actManager.HasBackground(back, ref background))
         {
             scriptReader.ScriptError("Background does not exsits");
         }
     }
-
-    public void ClickTextBox()
+    
+    /*
+     * Return if waiting for player response and player clicks text box
+     * When text box click either:
+     * Stop typing and finish sentence was typing
+     * Or Start Typing
+     */
+    public void ClickTextBox(bool playerClick = false)
     {
+        if(waitForResponse && playerClick)
+        {
+            return;
+        }
         StopCoroutine(TypeSentence());
         if (isTyping)
         {
@@ -139,6 +162,7 @@ public class UIController : MonoBehaviour
         }
     }
 
+    //Instantly types sentence so not to skip commads
     void CompleteSentence()
     {
         while (isTyping)
@@ -147,23 +171,35 @@ public class UIController : MonoBehaviour
         }
     }
 
+    /*
+     * Load next line
+     * Keep last sentence if told to stop typing
+     *      ^ Needed to keep last question up with the responses
+     * Else Type sentence
+     */
     IEnumerator TypeSentence()
     {
         scriptReader.ReadNextLine();
-        isTyping = true;
+
+        string lastLine = dialogBox.text;
         dialogBox.text = "";
-        while (isTyping)
+        if (!(isTyping = scriptReader.TypeNextWord()))
         {
-            isTyping = scriptReader.TypeNextWord();
+            dialogBox.text = lastLine;
+        }
+        while (isTyping = scriptReader.TypeNextWord())
+        {
             yield return new WaitForSeconds(Overlord.Instance.player.textSpeed);
         }
     }
 
+    //Used for script reader to type to text box
     public void StartTyping(string word)
     {
         dialogBox.text += word;
     }
 
+    //Creates a button for eache response given
     public void CreateButton(Response[] responses)
     {
         int size = responses.Length;
@@ -176,12 +212,14 @@ public class UIController : MonoBehaviour
             optionButtons[i] = Instantiate(optionPrefab, optionsPanel).GetComponentInChildren<Button>();
             optionButtons[i].GetComponentInChildren<Text>().text = responses[i].reply;
 
-            //add onclick lisenter to start next dialogue
+            //add onclick lisenter to read commands that were in the option
             string[] arr = responses[i].commands.ToArray();
             optionButtons[i].onClick.AddListener(delegate { scriptReader.ReadArray(arr); });
         }
+        waitForResponse = true;
     }
 
+    //Clear buttons after response selected
     public void ClearButtons()
     {
         foreach (Button b in optionButtons)
@@ -189,6 +227,7 @@ public class UIController : MonoBehaviour
             Destroy(b.transform.parent.gameObject);
         }
         optionButtons = new Button[0];
+        waitForResponse = false;
     }
 
     public Image GetImageOfCharacter(string characterName)
