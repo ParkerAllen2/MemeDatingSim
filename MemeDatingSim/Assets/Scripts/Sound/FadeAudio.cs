@@ -14,10 +14,10 @@ public class FadeAudio : MonoBehaviour
             from = 0;
         }
             
-        StartCoroutine(Fade(sound, from, to, duration));
+        StartCoroutine(Fade(sound, from, to, duration, !fadeIn));
     }
 
-    IEnumerator Fade(Sound sound, float from, float to, float duration)
+    IEnumerator Fade(Sound sound, float from, float to, float duration, bool stop)
     {
         float elapsed = 0;
         while(elapsed < duration)
@@ -27,7 +27,7 @@ public class FadeAudio : MonoBehaviour
             elapsed += Time.deltaTime;
         }
         sound.source.volume = SoundManager.Instance.GetMaxVolume(sound);
-        if (to == 0)
+        if (stop)
             sound.source.Stop();
     }
 }

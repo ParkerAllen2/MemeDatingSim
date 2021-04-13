@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a6c7cbe50c8744ab4d2f786861a119, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  playerName: bob
+  playerName: Bob
   shortcut: play
   textSpeed: 0.1
-  master: 0
+  master: 0.3
   music: 1
   sfx: 1
