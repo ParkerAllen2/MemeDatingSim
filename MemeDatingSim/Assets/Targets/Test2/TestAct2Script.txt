@@ -1,0 +1,50 @@
+<theme glitter <back lib <s1 <pos 2 <act 0 Hello there, <play.
+I need to study and test the response system so could you please answer a few questions.
+
+First question, What is not a goal of a game? <pos 3
+<o Social
+<o Educational
+<o Training
+<o Torture <skip 1
+<o Fitness
+<o Consicousness
+<o Creativity
+<o Marketing
+
+<pos 2 <aff -1 Incorrect... The correct answer was Torture <skip 1
+<pos 2 <aff 1 Correct, All the other options are goals for games.
+
+Next question, Which one is a genre? <pos 3
+<o Casino
+<o Action
+<o MMO
+<o All of the above <skip 1
+
+<pos 2 <aff -1 <shake Bzzzt!! All of those are genres and there are many more <skip 1
+<pos 2 <aff 1 <hop Ding, Ding!! Those are all genres and there are even more then that
+
+Next, Which one is not a character Archetype? <pos 3
+<o Hero
+<o Shadow
+<o Mentor
+<o Sweet Roll <skip 1
+<o Gurdian
+<o Trickster
+<o Herald
+
+<pos 2 <aff -1 Nope, those are all archetypes minus the delicious sweet roll <skip 1
+<pos 2 <aff 1 Yup, although tasty Sweet roll is the only non-archetype against popular belief
+
+Last question for now, Which is part of the hero's journey structure? <pos 3
+<o Call to Adventure
+<o Meet Mentor
+<o First Threshold
+<o Road Back
+<o All of the above <skip 1
+<o None of the above
+
+<pos 2 <aff -1 Wrong, all of those and more are part of the hero's journey <skip 1
+<pos 2 <aff 1 Correct, Those and more are part of the hero's journey
+
+Thank you for testing \(^v ^)
+<scene
