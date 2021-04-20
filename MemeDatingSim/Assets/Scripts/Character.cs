@@ -8,5 +8,6 @@ public class Character : ScriptableObject
     public int affection;
     public Sprite[] expressions;
     public Act act;
+    public Font font;
     public Color[] textboxColors;
 }

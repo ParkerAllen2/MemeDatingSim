@@ -46,5 +46,8 @@ Last question for now, Which is part of the hero's journey structure? <pos 3
 <pos 2 <aff -1 Wrong, all of those and more are part of the hero's journey <skip 1
 <pos 2 <aff 1 Correct, Those and more are part of the hero's journey
 
+<if 3 Well done 100%! <skip 1
+You got a couple wrong you may need to study again
+
 Thank you for testing \(^v ^)
 <scene

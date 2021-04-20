@@ -55,7 +55,9 @@ public class UIController : MonoBehaviour
             }
             speaker = value;
             nameTag.text = speaker.characterName;
+            nameTag.font = speaker.font;
             TextBoxColorer.ChangeColors(speaker.textboxColors);
+            dialogBox.font = speaker.font;
             ChangeExpression(0);
         }
     }
@@ -158,7 +160,7 @@ public class UIController : MonoBehaviour
         }
         else
         {
-            StartCoroutine(TypeSentence());
+            StartTypingSentence();
         }
     }
 
@@ -175,9 +177,9 @@ public class UIController : MonoBehaviour
      * Load next line
      * Keep last sentence if told to stop typing
      *      ^ Needed to keep last question up with the responses
-     * Else Type sentence
+     * Then Type sentence
      */
-    IEnumerator TypeSentence()
+    void StartTypingSentence()
     {
         scriptReader.ReadNextLine();
 
@@ -187,6 +189,11 @@ public class UIController : MonoBehaviour
         {
             dialogBox.text = lastLine;
         }
+        StartCoroutine(TypeSentence());
+    }
+
+    IEnumerator TypeSentence()
+    {
         while (isTyping = scriptReader.TypeNextWord())
         {
             yield return new WaitForSeconds(Overlord.Instance.player.textSpeed);
