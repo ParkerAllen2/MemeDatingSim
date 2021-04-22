@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Student 1
   shortcut: s1
-  affection: -5
+  affection: -7
   expressions:
   - {fileID: 21300000, guid: dffd2d919f29a72468b4bb876a393e8b, type: 3}
   act: {fileID: 11400000, guid: 65a5f6c7f33ea1a459e0f583bb24efc7, type: 2}

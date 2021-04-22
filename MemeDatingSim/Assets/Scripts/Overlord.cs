@@ -11,9 +11,18 @@ public class Overlord : Singleton<Overlord>
     public PlayerSettings player;
     public Act currentAct;
 
+    TransitionController sceneTransition;
+
     public override void Awake()
     {
         base.Awake();
+    }
+
+    private void Start()
+    {
+        print("hit3");
+        if (sceneTransition == null)
+            sceneTransition = GetComponentInChildren<TransitionController>();
     }
 
     private void OnEnable()
@@ -48,7 +57,7 @@ public class Overlord : Singleton<Overlord>
 
     public void LoadScene(string scene)
     {
-        SceneManager.LoadScene(scene);
+        sceneTransition.StartHideTransition(scene);
     }
 
     public void Exit()

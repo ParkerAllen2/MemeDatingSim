@@ -23,7 +23,7 @@ public class TitleController : MonoBehaviour
     private void Update()
     {
         float f = 0;
-        for (int i = 0; i < transforms.Length; i++)
+        for (int i = 1; i < transforms.Length; i++)
         {
             Vector3 y = new Vector3(0, Mathf.Sin(Time.time + f) * magnitude);
             transforms[i].anchoredPosition = positions[i] + y;
