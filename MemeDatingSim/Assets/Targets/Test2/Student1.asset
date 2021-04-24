@@ -17,7 +17,7 @@ MonoBehaviour:
   affection: -7
   expressions:
   - {fileID: 21300000, guid: dffd2d919f29a72468b4bb876a393e8b, type: 3}
-  act: {fileID: 11400000, guid: 65a5f6c7f33ea1a459e0f583bb24efc7, type: 2}
+  act: {fileID: 0}
   font: {fileID: 12800000, guid: d423f32bc49085b43809ac3221afa090, type: 3}
   textboxColors:
   - {r: 0.13228922, g: 0.031149868, b: 0.26415092, a: 1}

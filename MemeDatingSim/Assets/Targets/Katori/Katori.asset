@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2326d456212794290cac205c99e525, type: 3}
   m_Name: Katori
   m_EditorClassIdentifier: 
-  characterName: Katori
-  shortcut: isth
+  characterName: Yuutaro
+  shortcut: Yuutaro
   affection: 0
   expressions:
   - {fileID: 21300000, guid: f981bf29b34db0c488ff5f95fe200880, type: 3}
@@ -21,7 +21,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e9cc384e58fefa74b97a5c4ee86af7eb, type: 3}
   - {fileID: 21300000, guid: ece65f9f0af563f498ce74306e9aaf0f, type: 3}
   - {fileID: 21300000, guid: 3b77a7843b5a8234981984e2f52ef4cf, type: 3}
-  act: {fileID: 11400000, guid: 910e9240cb7e97643ab988019f99c2f2, type: 2}
+  act: {fileID: 11400000, guid: fef98ebbe1300ad40b89db8044b54990, type: 2}
   font: {fileID: 12800000, guid: d423f32bc49085b43809ac3221afa090, type: 3}
   textboxColors:
   - {r: 0.6886792, g: 0.27612138, b: 0.27612138, a: 1}

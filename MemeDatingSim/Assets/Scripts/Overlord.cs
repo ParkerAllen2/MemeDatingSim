@@ -20,7 +20,6 @@ public class Overlord : Singleton<Overlord>
 
     private void Start()
     {
-        print("hit3");
         if (sceneTransition == null)
             sceneTransition = GetComponentInChildren<TransitionController>();
     }
