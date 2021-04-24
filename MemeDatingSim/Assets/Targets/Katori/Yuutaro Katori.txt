@@ -1,0 +1,211 @@
+<theme glitter <back lib <self I walk into the library to try to see if any of the memes at this college catch my eye, so I could talk to them, and in the end possibly date them.
+And lo and behold in the sea of cringeworthy memes I spot him, <Yuutaro <pos 2 <self Yuutaro Katori.
+
+<self Yuutaro Katori is a simple meme, more well known as the ‘Is this a Pigeon’ meme. 
+He has a bad habit of mistaking rather obvious things for something that’s the complete opposite.
+In other words . . . . 
+He’s a dolt.
+But a hot dolt at that.
+I want a piece of that meme meat pie.
+I decided that I want to get to know this meme of a man and walk over to the table he was sitting at, surrounded by tons of biology books. <Yuutaro <pos 1 <self
+
+<o Sit down across from him
+<o Ask to sit with him <skip 3
+
+<self You sit down in front of Yuutaro, a hint of confusion washing over his face as he looks up from his books.
+<Yuutaro <exp 3 <hop  <aff -1  Oh sorry! Is this your seat? I can move if you want me to.
+<player Oh no it’s alright I just wanted to sit here, you can stay there. <skip 4
+
+<self I walk over to Yuutaro’s table, getting his attention with a small wave.
+<player Hey, do you mind if I sit here?
+<Yuutaro <exp 1 <hop <aff 1 Oh hi! I don’t mind if you sit here. 
+<self Yuutaro smiles before looking back at the books he had surrounding him.
+
+<Yuutaro <exp 0 <self There’s a few minutes of awkward silence between Yuutaro and I, almost to the point of being unbearable.
+I’m starting to think connecting with this guy is a lost cause.
+
+<Yuutaro Oh by the way, my name is Yuutaro Katori.
+
+<player What? Oh, I’m <play.
+
+<Yuutaro Nice to meet you <play.
+<Yuutaro Mind me asking what you’re majoring in? You are in the library after all.
+
+<player I’m still undecided for a major, so I’m taking gen eds for now.
+<player So what’s your major?
+
+<Yuutaro I’m actually a biology major, although I’m really not the best at it if you can’t tell.
+<self He chuckles and gestures at all the books at his desk, each being a different biology book specifically on animals.
+
+<player Trying to not mistake a butterfly for a pigeon this time I see?
+
+<Yuutaro <hop Of course! This time I know which animals are which!
+
+<self A chorus of shushes ring out from the library.
+
+<Yuutaro Oops, my bad.
+<self Yuutaro buries his head back into his book, as if trying to focus on the reading. His eyebrows furrow and goe between me and the book.
+<Yuutaro So why are you here?
+<Yuutaro You don’t seem like you’re studying at the moment.
+
+<player Well uh . . . .
+
+<self Shit I just realized I only came over here because he was cute enough for me to possibly date, I didn’t think this would actually work.
+
+<player I guess I just wanted to talk to you? You seem like a nice person.
+
+<Yuutaro <exp 3 Really? That’s it?
+
+<player Uh yeah . . .
+<player You got me . . . . <Yuutaro <exp 0
+
+<self We sit around and awkwardly go to our distractions, this is getting nowhere.
+. . . But, I need to lighten the mood or else this will go nowhere!
+
+<o Did you know that the mitochondria is the powerhouse of the cell?
+<o Hey, is this a movie? <skip 4
+
+<self Yuutaro forces an awkward chuckle, breaking the silence between us.
+<Yuutaro <aff -1 I’ve heard that one so many times in my classes.
+<player Oh yeah, of course you heard that joke before.
+<Yuutaro it’s ok though! It’s a classic joke. <skip 3
+
+<self I hold up one of the biology textbooks, smiling widely as he stifles his laughter. 
+<Yuutaro <exp 2 <aff 1 Is my mix-up really that famous?
+<player Yup, and it’s amazingly funny. You deserve a medal.
+
+<Yuutaro <exp 0 <self I finally got the ball rolling, now to get to know him even more!
+
+<player So, what’s your favorite thing about biology?
+
+<Yuutaro <exp 1 <hop <self Yuutaro’s eyes light up with glee.
+
+<Yuutaro Well, I like many things about the subject. 
+<exp 0 <player Such as?
+
+<Yuutaro Well the fact that through Biology, we can learn how things within our world work.
+<Yuutaro We’re able to learn things such as how we evolved throughout history, how intricate genetics can be, and even how the environment around us can evolve throughout time by natural circumstances.
+<Yuutaro But my favorite part is learning about animals. I may not be the best at differentiating different animals but I love to learn about each one.
+<Yuutaro Each animal has evolved to be able to survive in this age, for better or worse. It’s just so fascinating y’know?
+
+<player You sound like you’re enjoying your major.
+<Yuutaro <exp 2 <self Yuutaro looks a little flustered, embarrassed that he even started to ramble on.
+
+<player But hey. If you enjoy it that’s a good thing.
+
+<self He sighed a bit in relief.
+
+<Yuutaro That’s good, most people don’t like it if I ramble on.
+
+<player Rambling is just a sign of passion.
+
+<Yuutaro I guess you’re right.
+<Yuutaro Do you want to see my favorite animal?
+
+<player Sure.
+
+<self Yuutaro pulls out his phone and shows a picture of a red panda.
+<Yuutaro Behold.
+<Yuutaro The Red Panda.
+<Yuutaro My favorite type of bear and animal.
+
+<self I look at him slightly confused, red pandas are a type of raccoon and not bear. He must’ve gotten animals mixed up again.
+<o And this is my favorite dog
+<o Red pandas are actually a type of raccoon <skip 3
+
+<self I show a picture of a cow I found online, trying to get a laugh out of Yuutaro.
+<Yuutaro <exp 4 <aff -1 <self But he only looks saddened by it.
+<Yuutaro Oh I guess this isn’t a type of bear. My bad. <skip 3
+
+<Yuutaro <hop They are?
+<Yuutaro I actually didn’t know that.
+<Yuutaro <exp 1 <aff 1 Thanks for telling me.
+
+<Yuutaro <exp 0 So are you interested at all in biology?
+<Yuutaro If so I can possibly try to teach you a few things.
+<Yuutaro As we are currently in the school library.
+
+<player Yeah, it’s always fun to learn a little more about . . .  
+stuff . . . .
+
+<self Yuutaro nodded, pulling a seat up next to him so I could see the books.
+<Yuutaro Ok, which one do you wanna learn about first?
+
+<player Hmm . . . .
+<player How about plant biology? It’s always fascinated me.
+
+<Yuutaro <exp 1 <hop You got it!
+<self Yuutaro pulls out a book from his pile and begins reading it, but my mind can only focus on the distinct features of his face.
+It’s rather cute how many different emotions he’s shown just from reading a little blurb on plants.
+<Yuutaro <exp 3 Um <play?
+
+<self I notice he’s finally looking at me, looking a bit confused.
+
+<Yuutaro Are you paying attention? You did ask me to read this after all.
+
+<o Of course I am
+<o I guess I just saw something more interesting~ <skip 5
+
+<Yuutaro <exp 0 <self He nods and continues to read about all the different types of plants.
+From how they’re made up biologically to the different types of trees from around the world.
+<player Who knew plants could be so interesting am I right?
+<Yuutaro <exp 1 <aff 1 You said it. <skip 7
+
+<self Yuutaro stares at me, wide eyed and confused. He looked back down at the book before looking back up at me.
+<Yuutaro <exp 4 <aff -1 Something else seemed more interesting?
+<Yuutaro <exp 0 Why would you ask me to read this if something else looked more appealing?
+<Yuutaro I can read the book you were distracted by if you wish.
+<player Oh no it’s ok, just keep reading this one.
+<Yuutaro <exp 4 Oh… if you insist I guess
+<self He continues to read the book, although not as enthusiastically as before. I guess he really is oblivious to any form of flirting isn’t he.
+
+<Yuutaro <exp 0 <self Yuutaro finally puts down the book, having a bit of an unreadable expression on his face
+<Yuutaro So tell me <play . . . .
+<Yuutaro Why exactly did you come over to talk to me?
+<Yuutaro The most you know me for is my major screw up on confusing a butterfly with a pigeon.
+
+<player Well . . . .
+<player I was a little bit selfishly motivated.
+<player You seem like a really fun guy, although a bit thick sometimes.
+
+<Yuutaro <exp 3 <self He looked a bit offended by that statement, his eyebrows furrowing slightly
+
+<Yuutaro Thick? 
+<Yuutaro <shake Do you mean my thighs look big?
+
+<Yuutaro <exp 4 <player Oh no of course not! <Yuutaro <exp 0
+<player I meant as in you’re just a teensy bit dense.
+
+<Yuutaro . . . 
+I don’t think that’s any better <play.
+
+<player What I mean to say is . . .
+<o I think you’re cute
+<o I think you’re hot <skip 1
+
+<Yuutaro <aff 1 <skip 1
+<Yuutaro <aff -1
+<if 0 <skip 15
+
+<Yuutaro <exp 2 <self Yuutaro begins to blush, looking around as if he was trying to figure out what to say.
+<Yuutaro Is . . . 
+Is this a date? 
+<Yuutaro Do you want to date me <play?
+<player Yes I want to date you.
+<self I smile and make sure to exchange numbers with him.
+<Yuutaro <exp 1 <self Yuutaro smiles giddily, taking a hold of my hand.
+<Yuutaro Then it’s a date <play!
+<self A chorus of shushes ring out from the library
+<Yuutaro <exp 2 <self Yuutaro looks down a little flustered before looking back at me.
+<Yuutaro I’ll see you soon <play.
+<self He gathered up his books before leaving the library.
+I did it.
+I scored a smoking hot meme of a man.
+<scene
+
+<self Yuutaro gathers up all of his things, with a saddened look on his face.
+<Yuutaro Well… I guess I’ll see you around on campus.
+<self He hurried out of the library, leaving you at the table which you were both sitting at.
+I guess I pushed it too far.
+I won’t ever find anyone I’m interested in ever again.
+<scene

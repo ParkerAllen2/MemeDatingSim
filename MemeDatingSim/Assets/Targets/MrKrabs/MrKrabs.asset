@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2326d456212794290cac205c99e525, type: 3}
+  m_Name: MrKrabs
+  m_EditorClassIdentifier: 
+  characterName: Mr. Krabs
+  shortcut: krabs
+  affection: 0
+  expressions:
+  - {fileID: 21300000, guid: 20fcd6ccfc5aaf74dac3ba7be96d1c64, type: 3}
+  - {fileID: 21300000, guid: 793cee5f9f9f774458857db96d3e3c02, type: 3}
+  - {fileID: 21300000, guid: 472c324d41bc8d74a800e5ccb1d05105, type: 3}
+  - {fileID: 21300000, guid: ebbd87e1f056b3648a0de4ad357fde18, type: 3}
+  - {fileID: 21300000, guid: 72c747716ca85044aa88544178282bfd, type: 3}
+  act: {fileID: 0}
+  font: {fileID: 12800000, guid: d423f32bc49085b43809ac3221afa090, type: 3}
+  textboxColors:
+  - {r: 0.9056604, g: 0.26059094, b: 0.26059094, a: 1}
+  - {r: 0.08566215, g: 0.31078783, b: 0.7264151, a: 1}
+  - {r: 0.8113208, g: 0.3099858, b: 0.3099858, a: 0}
