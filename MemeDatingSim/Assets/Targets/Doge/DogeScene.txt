@@ -1,0 +1,189 @@
+<theme glitter <back lib <self I realized what better place to look for the meme man of my dreams than the recreational centre. 
+A place in which the strongest, most masculine memes will gather to flex their amazing bods.
+I head over to the recreational centre, my fantasies realized as I’m surrounded by ripped, muscular strength that is the buff memes.
+But one meme has for certain caught my eye.
+
+<Buff <pos 2 <self Buff Doge.
+That rippling chest . . .
+Those beefy arms . . .
+Those dogey facial features . . .
+The perfect good boy all wrapped into one beefcake of a package. 
+Now this, this is a meme I want as my date while going to school here.
+
+
+<Buff <pos 1 <self Buff Doge is seen in the back of the recreational center, bench pressing 200 pounds alongside a bunch of other memes.
+<o Go over and try to bench press alongside them
+<o Sit down near them and watch <skip 5
+
+<self I decide the only way to be able to talk to this man is through the power of strength.
+I go over to where Buff Doge was and pick up the heaviest thing I could bench press.
+Two 10 pound weights.
+I begin to try my damn hardest to bench press these weights, but then the memes that were around Buff Doge began cheering like it was a sports competition.
+<Buff <aff 1 <exp 1 Hey, good job trying something new newbie! Always glad to see new people here. <skip 4
+
+<self I sit down near the group of buff memes, just watching as they get their bodies ripped.
+But this doesn’t last long as the man of the hour Buff Doge stops what he’s doing and walks over.
+<Buff <aff -1 <exp 3 You know . . . we do have enough room for you to join us. You don’t have to just sit there.
+<player Oh, thanks.
+
+
+<Buff <exp 1 <self Buff Doge gave a wide smile and set his equipment down.
+
+<Buff I always make sure to greet newcomers to this lovely establishment.
+<Buff Usually me and the boys scare them off.
+<Buff The name’s Buff Doge, but most people call me Buff to differentiate me from my twin brother, Doge. What’s your name?
+
+<player <play . . .
+
+<Buff Well nice to meet you <play, have a great time in this recreational centre! <exp 0
+
+<self He walks back over to the group of memes, getting a drink of water before bantering with his friends.
+As much as I’d like to try to get in shape, that’s not my main goal at the moment.
+
+My main goal is getting a date from this Perro Grande.
+<o Go over and join Buff Doge’s group
+<o Start trying to use different gym equipment <skip 6
+
+<self I get up and insert myself into the group, looking at Buff Doge with a glint of mischief in my eyes.
+<Buff <exp 3 <aff -1 Uhhh . . . Hey . . . Need help over there?
+<self He looks a bit uncomfortable, trying to figure out what is happening.
+<player hehe . . .
+Sorry . . .
+<Buff <exp 0 <self I walk away sheepishly before finding a piece of equipment to start to good around with. <skip 2
+
+<self I look around and find a punching bag I can begin to use.
+<Buff <exp 1 <aff 1 <self Buff Doge notices and nods in approval of the choice.
+
+<Buff Here, let me help you with that <play! <exp 1
+
+<self Buff Doge trotted over, taking a hold of a punching bag and giving me a smile to signal to punch it.
+Why not, I mean I want to get to know Buff more.
+I begin to punch at the bag, beating it like there was no tomorrow.
+
+<Buff <shake That’s it! Good job! <exp 0
+
+<self After a few minutes of this… strange interaction… Buff Doge notices that his friends had left the situation.
+
+<Buff <exp 1 Welp, guess you’re stuck with me now.
+
+<player I guess I am.
+
+<Buff So . . .
+<Buff Are you planning on coming here regularly?
+<Buff Me and the boys practically live here.
+
+<player Most likely.
+<player Although I think I’d rather watch the scenery over becoming a part of the picture if you catch my drift.
+
+<Buff <exp 4 <self Buff Doge began to blush profusely, becoming suddenly aware that he had on no shirt.
+Nor any clothes for that matter.
+As he is, in fact, still a doge.
+
+<Buff I . . . should probably go get a shirt on. <exp 0
+<o Oh, ok.
+<o But I like what I see - Love. <skip 4
+
+<Buff <aff -1 <pos 0 <self Doge runs off to the locker room.
+<self Only to return later with remnants of what appears to be some tee shirts.
+<Buff <pos 1 I . . .
+<Buff They all ripped when I tried to put them on. <skip 4
+
+<self Doge turned an even darker shade of red, his muscles tensing as if they were reacting to being praised.
+<Buff <aff 1 <exp 2 Such appreciation…
+<Buff Very wow . . .
+<Buff A-Ack! Sorry I reverted back to my family’s speech habits.
+
+
+<Buff <exp 1 I guess fate wants me to be forever shirtless huh?
+
+<player Well, then I agree with fate then. <Buff <exp 0 <player
+
+<??? Wow I can’t believe someone like you is speaking with a scrub like them Buff.
+
+<self Both of us turn to see an irrelevant troll looking meme, standing nearby as if he owned the joint.
+<??? <pos 3 <self There’s no mistaking that he’s just here to pick a fight with Buff Doge.
+
+<??? You’re the face of buff memes Buff, don’t you have any respect for yourself when it comes to your image?
+<??? I mean come on you come from a legendary bloodline.
+<??? The doges are much more tasteful than tha- <pos 0 <Buff <shake
+
+<self And . . .
+Before I knew it . . .
+The random ass meme was on the ground, with an imprint of Buff Doge’s fist taking up his whole face.
+It took a second for the meme to figure out what just happened, his eyes widening before he scurried off.
+<Buff <exp 1 Buff Doge looked content with himself.
+
+
+<Buff Sorry, I just hate pompous idiots.
+<o I . . . Thank you.
+<o You didn’t have to do that - Dislike <skip 8
+
+<Buff <aff 1 <self Buff Doge smiles, rubbing the back of his head.
+<Buff It was nothing.
+<Buff I just hate <shake it that people think I have to be a top notch Doge meme because I come from a long line of Doges.
+<player Hey, you being you is the best kind.
+<player Even if you come from a line of “Such Doges” and “Very Memes”
+<Buff Hey, We don’t all sound like that all the time.
+<player But you sounded like that a while ago.
+<Buff . . . True. <skip 3
+
+<Buff <aff -1 <self Buff Doge looked a little saddened.
+<Buff But I wanted to.
+<Buff I hate <shake it when people get cocky just because I’m a Doge.
+
+
+<Buff <exp 0 Anyways, I better get going. I may practically live here but I’m still a student here.
+<Buff But I’ll see you around will I?
+
+<player Oh of course!
+
+<Buff <flip <self Buff Doge smiled and began to pack up his things.
+But that’s when I realized . . .
+My mission!
+The whole reason why I came in here.
+I wanted to get my buff man!
+
+<player Wait!
+
+<self Buff Doge stopped in his tracks, looking over at me.
+
+<Buff <flip <exp 3 Yes <play? What is it?
+
+<player Well, I wanna ask you something . . .
+
+<self I swallow a bit of my pride, taking a deep breath as I look at the confused hunk of Doge.
+
+<player Well you see . . .
+
+<o Please become my man!
+<o Please go on a date with me! <skip 1
+
+<Buff <aff -1 <skip 1
+<Buff <aff 1
+
+<self Doge just stares for a minute.
+Slightly dumbfounded as if he is trying to process the words.
+
+<if 0 <skip 11
+
+<Buff <exp 2 <pos 2 <hop <self Buff doge then walks over to me, picking me up and giving a giant bear hug.
+<Buff Of course I’ll go out with you!
+<Buff You seem like quite the interesting character.
+<Buff And I need a little spice in my life. 
+<player So . . . it’s a date?
+<Buff It’s a date <play.
+<self My inner thoughts instantly overloaded from the sheer overjoy of hearing those words.
+Not only did I get a date with a muscular beefcake of a meme.
+But I got a date with a muscular beefcake of a Doge meme.
+This day couldn’t get any better.
+<scene
+
+
+<Buff <exp 4 <flip Buff doge looked a little saddened by the confession, trying to look elsewhere.
+<Buff <play . . .
+<Buff You seem like a fun person . . .
+<Buff But I don’t really think you’re meant for meme.
+Buff Doge then grabs his stuff and walks out of the recreational centre.
+Although he missed the door and walked straight through the wall.
+Leaving not only a buff doge shaped hole in the wall… but also in my heart.
+<scene

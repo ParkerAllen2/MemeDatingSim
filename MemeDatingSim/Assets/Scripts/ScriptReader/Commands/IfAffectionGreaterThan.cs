@@ -9,7 +9,7 @@ public class IfAffectionGreaterThan : Command
     public override void Action(ScriptReader sr, UIController uic)
     {
         int amount = sr.ConvertToInt(sr.GetParameters(1)[0]);
-        if (uic.Speaker.affection <= amount)
+        if (uic.Speaker.affection >= amount)
         {
             sr.ReadNextLine();
         }

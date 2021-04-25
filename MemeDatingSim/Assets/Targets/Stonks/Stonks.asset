@@ -21,7 +21,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 072fd72fa0b757440b4658419f6f233a, type: 3}
   - {fileID: 21300000, guid: dee362f9e1f93604d9e34f7d8cd3f6b7, type: 3}
   - {fileID: 21300000, guid: 2b2ed8e923ea55144b27b4488b7f2cef, type: 3}
-  act: {fileID: 0}
+  act: {fileID: 11400000, guid: a72151e8d4ebe304a81163811728fd98, type: 2}
   font: {fileID: 12800000, guid: d423f32bc49085b43809ac3221afa090, type: 3}
   textboxColors:
   - {r: 0.20185119, g: 0.28790224, b: 0.6792453, a: 1}

@@ -1,0 +1,184 @@
+<self I realized quickly that my caffeine levels for the day are too low for me to function for the day, my addiction needs to be satisfied.
+What better way to drink the juice that keeps me going than going over to the campus cafe.
+I head over and get in line to get the pure deliciousness that is my normal coffee order, going up to the cashier and finally placing my order.
+
+<player Hi, I would like a venti 9 shot espresso, with one pump of vanilla, skim milk, 10 splendas, no whip, no foam, with 2 squirts of honey shaken in.
+
+<self The Barista looked terrified, but nodded and went to make my drink of pure joy.
+
+<stonks? Pathetic.
+<stonks? How dare you ruin the purity that is a good cup of coffee?
+
+<self I look around, confused as to who the voice was as I grab my glorious concoction from the barista.
+
+<player Who said that?
+
+<stonks? I did.
+
+<self I look over to where the voice came from, and there he was.
+<stonks <pos 1 <self Stonks, one of the richest memes on campus.
+A meme of few emotions yet has such great appeal.
+His sexy suit, his beautiful bald head, his expressionless face.
+I should be mad that he just insulted my drink of the gods, but the fact he even acknowledged me is enough to make me forgive him.
+But Stonks didn’t look pleased with me, his arms crossed as he questioned me from his table in the cafe.
+
+
+<stonks <exp 3 Well? Explain yourself.
+<o I just like it that way
+<o Because I wish for my insides to die more quickly <skip 2
+
+<stonks <aff -1 How disgusting.
+<stonks No one would willingly put that into their body unless they’re trying to die. <skip 3
+
+<stonks <exp 1 <aff 1 <self Stonks had a slight smirk on his face.
+<stonks I knew it.
+<stonks No one would ever drink that unless they wanted to die.
+
+<stonks <exp 0 Now, you’ve intrigued me. Come sit with me, I’d like to learn more about you.
+
+<self My brain instantly blue screens.
+Stonks . . . the Stonks . . . Asked me to sit with him????
+I immediately sat down across from him, being able to admire his gorgeous low polygon face much closer than I ever imagined I’d be able to.
+
+<stonks I believe I haven’t properly introduced myself.
+<self Stonks whip out a business card, sliding it across the table.
+<stonks My name is Stonks, I am part of the college of business here on campus. And I am a professional investor in the stock market. I know the economy better than the back of my hand.
+
+<player Well, I ‘m <play. I’m currently just in gen eds as I don’t know what my major should be yet. And that’s all about me.
+
+<self Stonks nods slowly, slow sipping his cup of black coffee that seemed to appear out of nowhere.
+
+<stonks I see . . . Well even the most simple people can go to prestigious schools such as this one.
+<stonks But having many different types of people can make things interesting.
+<stonks After all, the more people going to college the more the economy can grow.
+
+<self He leans back into his chair, taking another sip of coffee.
+I can’t help but be attracted to the pure intimidation radiating off this meme. He has power, money, influence, and a hot face to add to it.
+
+
+<stonks Speaking of the people, what do you think of the concept of cryptocurrency?
+<o You mean Bitcoin?
+<o You mean Dogecoin? <skip 2
+
+<stonks <exp 0 <aff 1 Yes, I personally have invested in it when it first was seen as nothing more than a joke.
+<stonks I have been able to invest in more than ever before because of the money I’ve made from it. <skip 3
+
+<stonks <exp 0 <shake <aff -1 I don’t mean that one, the Doge family is growing way too strong for my tastes if you ask me.
+<stonks How does one get their own cryptocurrency anyway?
+<self He looks at me as if I would know the answer to that, which I merely shrug to.
+
+
+<self I practically understood none of what he said, but I couldn’t help but be intrigued by the passion he was showing as he began spewing on and on about the structure of our capitalistic society. *Happy Sprite*
+After a while I realized I could actually join in on his ramblings.
+With the GameStop stock situation.
+
+<player Hey Stonks?
+
+<stonks Yes <play? 
+
+<player What do you know about the GameStop stock situation?
+
+<stonks <exp 3 <self Stonks looked a little confused for a second
+He then realized what I was talking about, his smirk reappearing on his face.
+
+<stonks <exp 1 Well, what do you know about it <play? I know everything about the whole situation, but you brought it up.
+
+<self Crap. I didn’t think he’d turn the question around on me. I don’t really know what happened with the situation and was hoping he’d talk about it.
+As I’m lost in thought I didn’t realize Stonks leaned in close from across the table, getting close enough to whisper into my ear.
+
+<stonks <exp 1 Did you say that just to try to impress me? How cute.
+
+
+<self My face turns bright red, my heart beginning to go a mile a minute.
+<o I-It wasn’t that cute
+<o Back away from him <skip 3
+
+<self Stonks sits back down in his chair chuckling a bit to himself.
+<stonks <aff 1 Sureeee <play, whatever you say.
+<self Out of all the memes I’ve seen as attractive throughout my years, I didn’t believe that the serious meme that is in fact Stonks would be the most flirtatious. <skip 3
+
+<stonks <exp 4 <self Stonks sighs a bit before sitting back down in his chair.
+<stonks <aff -1 Damn… usually that move works on people.
+<stonks A shame really . . .
+
+<self Stonks takes a huge gulp of his coffee before going onto his laptop to work on whatever he was working on before having me come over to the table.
+I then remembered . . .
+My reason for coming here.
+My elixir of life!
+I got so distracted by the dom energy of this gorgeous meme man that my coffee got cold.
+<stonks <shake <self I quickly chug it so I could get another, prompting a weird look from Stonks.
+But I don’t care.
+I get another coffee and sit back down with Stonks, who is now off his computer.
+
+<stonks So <play . . .
+
+<player Yes?
+
+<stonks Would you ever be interested in learning the art of the stock market? I’d be happy to teach you all I know.
+<stonks You don’t have a major, and you seem interesting enough that I’d be willing to teach you everything I know.
+
+
+<stonks So what do you say?
+<o That would be interesting
+<o I’m not so sure <skip 3
+
+<stonks <exp 1 <aff 1 <self Stonks smiles, feeling content with the answer I gave him.
+<stonks Lovely, you’d be able to learn of the sweet ecstasy of being able to make the perfect trade when dealing with Stocks.
+<self He folds his hands and puts them on the table. <skip 1
+
+<stonks <aff -1 <exp 0 <self Stonks face becomes unreadable. Not saying anything in response.
+
+<stonks <exp 0 I have one final question…
+<stonks Is there a type of man you’re attracted to.
+
+<self Oh no he’s on to me.
+I stare at this dominating man of a meme, realizing the only reason why I sat down in the first place is because of my pure attraction to him.
+I feel the blush creeping up on my face, causing Stonks to smile to himself.
+
+<player Well I’m attracted to all types of memes.
+<player Especially male memes.
+
+<stonks I see . . .
+<stonks How interesting.
+
+<self Stonks simply shrugs in response before going onto his phone.
+How could this meme take this news so nonchalantly?
+Wasn’t he flirting with me this whole time?
+Well I won’t let him have the last say in this.
+
+<player Hey Stonks.
+
+<stonks <exp 3 <self He looks up from his phone, his eyebrows furrowed.
+
+<stonks hm?
+
+<self I look straight into his eyes, not letting his appeal get the best of me.
+
+<o I want to date you!
+<o Do you think we could date? <skip 1
+
+<stonks <aff 1 <skip 1
+<stonks <aff -1
+
+<stonks <if 0 <skip 9
+
+<stonks <exp 1 <self Stonks smiles, getting up and walking over to where I was sitting.
+<stonks Why I thought you’d never ask <play.
+<stonks I can’t wait to get to know you better.
+<self He took my hand and kissed it before packing up his stuff.
+<stonks My number’s on my card. Make sure to call me.
+<stonks <pos 0 <self He walked out of the cafe, leaving me in complete and total shock.
+I was able to get the hot daddy dom businessman meme to become my date.
+It feels so surreal like I’m the main character in a dating sim full of hot men.
+<scene
+
+
+<stonks <exp 4 <self Stonks looks at me with a saddened look.
+<stonks <play . . . As much as you are interesting and fun to tease, but I don’t believe we’re compatible to date.
+<stonks <exp 0 You may consult me anytime on the stock market, but that’s merely it.
+<stonks Now begone, I no longer require your presence.
+<self I stare, dumbfounded and defeated.
+All that flirting and no payoff.
+I take my second coffee and leave the cafe, the coffee now cold.
+I lost my one chance to get Stonks as my date. A tragedy in itsel
+<scene

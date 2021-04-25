@@ -185,6 +185,7 @@ I don’t think that’s any better <play.
 
 <Yuutaro <aff 1 <skip 1
 <Yuutaro <aff -1
+
 <if 0 <skip 15
 
 <Yuutaro <exp 2 <self Yuutaro begins to blush, looking around as if he was trying to figure out what to say.
