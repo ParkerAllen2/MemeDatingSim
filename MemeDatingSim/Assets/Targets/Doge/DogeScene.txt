@@ -49,7 +49,7 @@ My main goal is getting a date from this Perro Grande.
 <self He looks a bit uncomfortable, trying to figure out what is happening.
 <player hehe . . .
 Sorry . . .
-<Buff <exp 0 <self I walk away sheepishly before finding a piece of equipment to start to good around with. <skip 2
+<Buff <exp 0 <self I walk away sheepishly before finding a piece of equipment to start to goof around with. <skip 2
 
 <self I look around and find a punching bag I can begin to use.
 <Buff <exp 1 <aff 1 <sound up <self Buff Doge notices and nods in approval of the choice.

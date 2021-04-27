@@ -36,21 +36,23 @@ Kermit then stares at the player behind the screen, laughing silently before loo
 
 <kermit So <play, do you like the performing arts?
 <o I think it looks like a lot of work
-<o I think it looks interesting <skip 8
+<o I think it looks interesting <skip 9
 
 <kermit <aff -1 <sound down <exp 4 <self Kermit huffs a bit, shaking his head and looking to the ground.
 <kermit Of course it’s a lot of work.
 <kermit Art is work.
 <kermit <exp 0 Yet the most beautiful art is the ones we put all our effort into.
 <kermit <hop <self Kermit clenches his fist, looking up to the ceiling as if he’s giving the speech of a lifetime.
-<kermit Without art our world becomes a bleak, desolate wasteland of nothing but compliance. Without art our abilities to express ourselves are almost entirely destroyed to the point that-
+<kermit Without art our world becomes a bleak, desolate wasteland of nothing but compliance. 
+Without art our abilities to express ourselves are almost entirely destroyed to the point that-
 <player Ok ok I get it.
-<self If I didn’t stop him there he’d probably go on for hours. <skip 7
+<self If I didn’t stop him there he’d probably go on for hours. <skip 8
 
 <kermit <aff 1 <hop <sound up <exp 1 Well of course it’s interesting!
 <kermit The stage is it’s own world, through it we can make anything happen.
 <kermit <hop <self Kermit then gets on top of an auditorium chair, a spotlight falling onto his figure as if on command.
-<kermit <exp 0 Without the art of theater, I would never be the frog that I am today. I’d merely be a puppet of the masses doing whatever they intended for me to do in their minds.
+<kermit <exp 0 Without the art of theater, I would never be the frog that I am today. 
+I’d merely be a puppet of the masses doing whatever they intended for me to do in their minds.
 <kermit Theater is important to society as through the power of art we can inspire the masses to be whatever they want to be-
 <player Ok Shakespeare I get it
 <self The spotlight immediately went away the moment Kermit stopped talking, he really has control of this auditorium huh.
@@ -100,7 +102,8 @@ Well he is a theater major, those types can be a bit overdramatic.
 
 <self He stood up, smirking a bit as sparkles danced around him like an anime boy.
 What an interesting character on top of his good looks.
-<kermit <shake <self Kermit proceeds to brush himself off before <kermit <flip <hop <self hopping over to the director, who had just walked in and began to panic about the stage.
+<kermit <shake <self Kermit proceeds to brush himself off before <kermit <flip <hop <self hopping over to the director, 
+who had just walked in and began to panic about the stage.
 Do I make a move then? If he’s being so flirty it could work in my favor.
 After all, he’s the reason why I stayed here even though no one else looked interesting.
 

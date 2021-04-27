@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2326d456212794290cac205c99e525, type: 3}
   m_Name: Stonks
   m_EditorClassIdentifier: 
-  characterName: SONKS
+  characterName: STONKS
   shortcut: stonks
   affection: 0
   expressions:
