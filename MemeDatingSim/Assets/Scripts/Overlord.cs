@@ -104,6 +104,16 @@ public class Overlord : Singleton<Overlord>
         }
         return scenes[0].sceneName;
     }
+
+    public bool NoActsLeft()
+    {
+        foreach(Character c in characters)
+        {
+            if (c.act != null)
+                return false;
+        }
+        return true;
+    }
 }
 
 [System.Serializable]

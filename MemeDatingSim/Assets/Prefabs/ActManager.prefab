@@ -582,9 +582,9 @@ MonoBehaviour:
     shortcut: cafe
   - sprite: {fileID: 21300000, guid: cf4ded532d5e9b246bae571fe4a32e6e, type: 3}
     shortcut: gym
-  - sprite: {fileID: 21300000, guid: 88fa0dc686a7fa445b922f31b64ab255, type: 3}
+  - sprite: {fileID: 21300000, guid: 79a3b4364e92d0746aada638b6451c33, type: 3}
     shortcut: theater
-  - sprite: {fileID: 21300000, guid: 88fa0dc686a7fa445b922f31b64ab255, type: 3}
+  - sprite: {fileID: 21300000, guid: 38fa0657db05e1e428e92009abc97c6e, type: 3}
     shortcut: parking
 --- !u!1 &8727382626107780483
 GameObject:

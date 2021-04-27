@@ -202,7 +202,7 @@ Is this a date?
 <self He gathered up his books before leaving the library.
 I did it.
 I scored a smoking hot meme of a man.
-<scene
+<Buff <aff -1 <krabs <aff -1 <kermit <aff -1 <stonks <aff -1 <scene
 
 <self Yuutaro gathers up all of his things, with a saddened look on his face.
 <Yuutaro Well… I guess I’ll see you around on campus.

@@ -1,4 +1,4 @@
-<theme silly <back lib <self I decided that I wanted to stop by the theater that was on campus, as I heard that they were currently practicing for their next big performance.
+<theme silly <back theater <self I decided that I wanted to stop by the theater that was on campus, as I heard that they were currently practicing for their next big performance.
 I never really have seen the drama memes up close before, maybe it’s possible one of them will stick out to me.
 I walk into the auditorium, noticing a bunch of memes scurrying around as they’re getting ready for another run of a scene.
 No one too special, the only ones I could recognize from the sea of memes were Sanic, Shaggy, and Waluigi. None to which are my type.
@@ -160,7 +160,7 @@ This is Kermit the Frog.
 I was able to get The Kermit the Frog to ask me out on a date.
 The most handsome of frog memes.
 I couldn’t be happier.
-<scene
+<Yuutaro <aff -1 <Buff <aff -1 <krabs <aff -1 <stonks <aff -1 <scene
 
 
 <kermit <exp 4 <self Kermit then sighed loudly, holding his hand against his head in disappointment. *Sad sprite*

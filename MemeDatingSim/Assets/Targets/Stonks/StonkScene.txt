@@ -170,7 +170,7 @@ Well I won’t let him have the last say in this.
 <stonks <pos 0 <self He walked out of the cafe, leaving me in complete and total shock.
 I was able to get the hot daddy dom businessman meme to become my date.
 It feels so surreal like I’m the main character in a dating sim full of hot men.
-<scene
+<Yuutaro <aff -1 <Buff <aff -1 <krabs <aff -1 <kermit <aff -1 <scene
 
 
 <stonks <exp 4 <self Stonks looks at me with a saddened look.

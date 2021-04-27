@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shortcut: scene
   mapScene: Map
+  endScene: EndScene

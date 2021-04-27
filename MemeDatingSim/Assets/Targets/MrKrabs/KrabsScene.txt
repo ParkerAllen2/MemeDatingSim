@@ -1,4 +1,4 @@
-<theme monday <back gym <self I decided that I wanted to go get some food before heading to any of my classes, so I head to the school parking lot.
+<theme monday <back parking <self I decided that I wanted to go get some food before heading to any of my classes, so I head to the school parking lot.
 Usually students who own food trucks like to park there to generate business during lunchtime, 
 so no doubt I’d be able to get something to eat.
 Unfortunately when I got there almost all the food trucks have started to pack up for the day.
@@ -179,7 +179,7 @@ The crabby money hungry daddy!
 <krabs Oh and before I forget…
 <krabs You still owe me money for using my time.
 <self Shit.
-<scene
+<Yuutaro <aff -1 <Buff <aff -1 <kermit <aff -1 <stonks <aff -1 <scene
 
 
 <krabs <exp 4 <self Mr. Krabs didn’t say anything before pulling out a tiny violin and beginning to play it.

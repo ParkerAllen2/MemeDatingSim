@@ -22,10 +22,19 @@ public class MapUIController : MonoBehaviour
 
     void AddCharacters()
     {
+        bool complete = true;
         foreach(Character c in Overlord.Instance.characters)
         {
             if(c.act != null)
+            {
                 holderPanel.AddCharcter(c);
+                complete = false;
+            }
+        }
+
+        if (complete)
+        {
+            Overlord.Instance.LoadScene("EndScene");
         }
     }
 }
