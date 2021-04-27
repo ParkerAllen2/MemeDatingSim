@@ -114,35 +114,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Credits:
-
-
-    Art:
-
-    Paige Gransden
-
-    Gavin Otterstetter
-
-
-    Story:
-
-    Brenna
-    Sikora
-
-
-    Programmer:
-
-    Parker Allen
-
-
-    Glitter Blast by Kevin MacLeod
-
-    Link:
-    https://incompetech.filmmusic.io/song/4707-glitter-blast
-
-    License: https://filmmusic.io/standard-license
-
-'
+  m_Text: "Credits:\n\nArt:\nPaige Gransden\nGavin Otterstetter\n\nStory:\nBrenna
+    Sikora\n\nProgrammer:\nParker Allen\n\nSFX:\n zapsplat.com\n\nMusic:\nGlitter
+    Blast by Kevin MacLeod\nLink: https://incompetech.filmmusic.io/song/4707-glitter-blast\nLicense:
+    https://filmmusic.io/standard-license\n\nLife of Riley by Kevin MacLeod\r\nLink:
+    https://incompetech.filmmusic.io/song/3976-life-of-riley\r\nLicense: https://filmmusic.io/standard-license\r\n\r\nSilly
+    Fun by Kevin MacLeod\r\nLink: https://incompetech.filmmusic.io/song/4360-silly-fun\r\nLicense:
+    https://filmmusic.io/standard-license\r\n\r\nCheery Monday by Kevin MacLeod\r\nLink:
+    https://incompetech.filmmusic.io/song/3495-cheery-monday\r\nLicense: https://filmmusic.io/standard-license\r\n\r\nWholesome
+    by Kevin MacLeod\r\nLink: https://incompetech.filmmusic.io/song/5050-wholesome\r\nLicense:
+    https://filmmusic.io/standard-license\n"
 --- !u!114 &5437421339781349592
 MonoBehaviour:
   m_ObjectHideFlags: 0
