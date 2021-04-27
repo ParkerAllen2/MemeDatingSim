@@ -49,16 +49,16 @@ public class UIController : MonoBehaviour
         get { return speaker; }
         set
         {
+            speaker = value;
             if (!stage.ContainsKey(value.characterName))
             {
                 stage.Add(value.characterName, Instantiate(portraitPrefab, imagePositions[0]));
+                ChangeExpression(0);
             }
-            speaker = value;
             nameTag.text = speaker.characterName;
             nameTag.font = speaker.font;
             TextBoxColorer.ChangeColors(speaker.textboxColors);
             dialogBox.font = speaker.font;
-            ChangeExpression(0);
         }
     }
 

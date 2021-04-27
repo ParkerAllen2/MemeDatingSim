@@ -24,6 +24,7 @@ ScriptsOnlyBuild:
     - Overlord
     - PanelSizer
     - PlaySound
+    - PlaySoundButton
     - PlayThemeMusic
     - PlayerSettings
     - ScriptReader
@@ -134,25 +135,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13104}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13278}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13280}
     - Class: 114
-      Script: {instanceID: 13606}
+      Script: {instanceID: 13312}
     - Class: 114
-      Script: {instanceID: 13732}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13976}
+      Script: {instanceID: 13734}
     - Class: 114
-      Script: {instanceID: 14244}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14356}
+      Script: {instanceID: 14290}
+    - Class: 114
+      Script: {instanceID: 14358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -257,29 +260,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13128}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13606}
+      Script: {instanceID: 13312}
     - Class: 114
-      Script: {instanceID: 13732}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 13734}
     - Class: 114
-      Script: {instanceID: 13930}
+      Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 13976}
+      Script: {instanceID: 13932}
     - Class: 114
-      Script: {instanceID: 13990}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14244}
+      Script: {instanceID: 13992}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14356}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 14376}
+      Script: {instanceID: 14358}
+    - Class: 114
+      Script: {instanceID: 14378}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -366,27 +371,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13104}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13314}
+      Script: {instanceID: 13312}
     - Class: 114
-      Script: {instanceID: 13332}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 13606}
+      Script: {instanceID: 13334}
     - Class: 114
-      Script: {instanceID: 13732}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13976}
+      Script: {instanceID: 13734}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14244}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 14356}
+      Script: {instanceID: 14272}
+    - Class: 114
+      Script: {instanceID: 14358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -864,6 +871,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterHop
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaySoundButton
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7

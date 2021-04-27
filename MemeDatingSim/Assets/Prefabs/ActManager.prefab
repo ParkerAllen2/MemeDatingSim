@@ -578,6 +578,14 @@ MonoBehaviour:
   bakgrounds:
   - sprite: {fileID: 21300000, guid: 88fa0dc686a7fa445b922f31b64ab255, type: 3}
     shortcut: lib
+  - sprite: {fileID: 21300000, guid: efaaeecb122f8ce4b90c976ba95e7017, type: 3}
+    shortcut: cafe
+  - sprite: {fileID: 21300000, guid: cf4ded532d5e9b246bae571fe4a32e6e, type: 3}
+    shortcut: gym
+  - sprite: {fileID: 21300000, guid: 88fa0dc686a7fa445b922f31b64ab255, type: 3}
+    shortcut: theater
+  - sprite: {fileID: 21300000, guid: 88fa0dc686a7fa445b922f31b64ab255, type: 3}
+    shortcut: parking
 --- !u!1 &8727382626107780483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +1021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8727382626858938066
 RectTransform:
   m_ObjectHideFlags: 0

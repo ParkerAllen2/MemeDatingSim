@@ -1,0 +1,191 @@
+<theme monday <back gym <self I decided that I wanted to go get some food before heading to any of my classes, so I head to the school parking lot.
+Usually students who own food trucks like to park there to generate business during lunchtime, 
+so no doubt I’d be able to get something to eat.
+Unfortunately when I got there almost all the food trucks have started to pack up for the day.
+All except one.
+The Qrusty Qrab.
+I feel like I’ve heard that name before, but it seems like a work around for copyright laws
+Oh well, it’s better than nothing.
+I go up to the window to place an order and that’s when I see him.
+<krabs <flip <pos 3 <self Mr. Eugene Krabs.
+One of the most sexy looking crustaceans in the whole memiverse.
+His elevated eyes…
+His dad bod…
+His giant crab hands…
+All of the perfect crabby package wrapped into one.
+My mind goes blank for a moment before Mr. Krabs finally noticed I was standing in front of his truck.
+
+<krabs <flip Oohhh one more customer for the day, luck must be on me side! <exp 1
+
+<self Mr. Krabs smiled widely, putting on the best customer service act he could.
+
+
+<krabs So what can I get for ya?
+<o Your love
+<o A Qrabby Patty <skip 4
+
+<krabs <shake <self Mr. Krabs just laughed his iconic laugh before looking back at me.
+<krabs <exp 0 <aff -1 <sound down Very funny, no what will it be?
+<self Dammit my pickup line didn’t work.
+I just order one Qrabby patty, giving him the money in exchange for the sandwich? Burger? I don’t know which. <skip 3
+
+<krabs <aff 1 <sound up Okay! One Qrabby Patty coming right up!
+<krabs <pos 0 <self He then scurried off into the food truck, taking a few minutes before arriving back with my food. <krabs <pos 3 <self
+I thank him and give him some cash I had on hand.
+
+
+<krabs <exp 0 Have a lovely day me loyal customer!
+
+<self Mr. Krabs waves to me as I head to leave, <krabs <exp 2 <flip <self before cackling and holding the money I gave him tightly to his chest.
+
+<krabs Kekeke… I love money!
+
+<self Damn, I wish he would hold onto me as much as he did that money.
+Wait a minute... 
+Why am I even walking away???
+<krabs <flip <exp 3 <self I turn around and walk back to the food truck, causing Mr. Krabs to look confused.
+
+<krabs What is it?? There are no refunds allowed if you don’t like me food.
+
+<player No that’s not it. <krabs <exp 0 <player
+
+
+<krabs Then what is it? I don’t have all day.
+<o I’ll pay you if you chat with me for a bit
+<o Could we talk for a bit <skip 2
+
+<krabs <exp 1 <hop <aff 1 <sound up <self Mr. Krabs eyes lit up the moment the word pay fell out of my mouth, he instantly closed up the food truck before scurrying out of the back.
+<krabs Of course I can talk to you, my time is worth a twenty per hour by the way. <skip 3
+
+<krabs <exp 4 <shake <aff -1 <sound down <self Mr. Krabs looked unamused at the gesture, as if the mere thought of being unable to earn money insulted him.
+<krabs Why should I? Are ye gonna pay me for me time?
+<krabs <exp 0 <self I sigh and slide a twenty over the counter, with Mr. Krabs snatching it instantly before scurrying out to talk to me.
+
+
+<krabs <flip <pos 1 So ye wanted to talk to me, about what exactly?
+
+<player I just want to get to know you, I’ve heard a lot about you. You are a legendary meme after all.
+
+<krabs <exp 1 <self Mr. Krabs smiled at the fact he was called a legend, making himself feel like a million bucks.
+
+<krabs Well, the name’s Eugene Krabs. But everyone calls me Mr. Krabs. <hop This baby here is my pride and joy. She keeps the money flowing in.
+
+He knocked his hand against the side of the food truck, sniffling like a proud dad.
+
+<krabs <exp 0 Now how about ye? Who are ya?
+
+<player I’m <play, I’m a gen ed student who has a… passion for meeting other memes.
+
+<self I smile the best I can, I technically am not wrong with my word choice.
+
+<krabs I see… so <play what do ye want to know?
+
+
+<krabs I can tell ye about me business, about me schooling, whatever you want to know.
+<o Tell me the secret formula to your food?
+<o Tell me about your business <skip 5
+
+<krabs <exp 3 <aff -1 <sound down <self Mr. Krabs looked like he got whiplash just from the sheer mention of having a secret formula.
+<krabs Where did you hear about that??
+<krabs <shake Nevermind…
+<krabs <exp 0 I’ll just tell ya my life story instead.
+<krabs I’m not telling ya nothin’ about that. <skip 4
+
+<krabs <exp 0 Well it all started when I was a wee little Krab.
+<krabs and I had fallen in love at first sight.
+<krabs With the one true beauty of this world…
+<krabs <hop <aff 1 <sound up Money.
+
+
+<self Mr. Krabs proceeded to talk for literal hours about his love for money. To the point I could see that this conversation was going to go nowhere.
+
+<krabs So <play.
+<krabs How much do ya like money?
+
+<self I look over to Mr. Krabs, who looked genuinely curious about what I was going to say.
+
+<player Well… I can’t ever say I hate money.
+<player I mean, we need it for everything in order to survive.
+<player Who wouldn’t love the tool that allows them to live comfortably.
+
+<krabs <hop Exactly!
+<krabs I’m glad to see that someone agrees with me philosophy.
+<krabs Without money in this world ye can’t live comfortably, so I want all the money I can get.
+
+<self Mr. Krabs looks out to the parking lot, now empty of all other food trucks besides his own.
+His competition is gone and students are coming to their cars to head home.
+
+<krabs Excuse me <play, I got to open to get me some customers.
+
+<krabs <pos 3 <flip <self He scurried back into the food truck, flipping it back to open as other memes began to line up for food.
+Leaving me to my thoughts.
+How am I supposed to get through to this sexy shellfish that I wanted to date him if all he has on his mind is money?
+That’s when it finally hits me.
+If I worked for him, then I could get close enough to him to make it known I’m interested in him!
+I look back at the food truck, which the line for has tripled in size.
+
+
+<self It seemed like Mr. Krabs started to struggle keeping up with the orders coming in.
+<o Go and help him catch up with orders
+<o Wait until the line dies down <skip 5
+
+<self I shrug to myself and decide to hop inside the food truck.
+Before Mr. Krabs could question what I was doing, I began to man the cash register for him to let him cook.
+Causing the line to gut by much faster than it would’ve been if it was him alone.
+<krabs <pos 1 <flip Thanks, although I’m not gonna pay ye for volunteering to help.
+<player Eh I don’t mind <krabs <aff 1 <sound up <player <skip 7
+
+<self I decide that it be too much trouble to try to mess with his business, as it’s something he usually deals with on his own.
+So I wait for him to finish up to talk with him more…
+And wait… 
+And wait… 
+And wait…
+<krabs <pos 1 <flip <self After a long while of waiting and twiddling my thumbs for the rush to finish Mr. Krabs comes back out, looking beat.
+<krabs <aff -1 <sound down That took a lot longer than expected.
+
+
+<krabs <flip <self Mr. Krabs then looks around, seeing the parking lot begin to empty.
+
+<krabs <flip Well I better get going, I need to follow where the money will take me!
+
+<krabs <flip <self Mr. Krabs then began to pack up to head out.
+This is my chance to confess to this Dilf of a crab!
+
+<player Wait Mr. Krabs! <krabs <hop <player
+
+<krabs <flip <exp 3 <self Mr. Krabs then turns around, with a questioning look on his face.
+
+<player I like you!
+<player Like how you like money!
+
+
+<player So…
+<o Please love me like you love money!
+<o Please go out on a date with me! <skip 1
+
+<krabs <aff -1 <sound down <skip 1
+<krabs <aff 1 <sound up
+
+<krabs <if 0 <skip 12
+
+<krabs <exp 2 <self Mr. Krabs looked stunned for a second, before his eyes morphed into a flirtatious expression.
+<krabs I guess we can go on a date.
+<krabs Although if we do get together you’ll be second to money.
+<krabs Deal?
+<player Deal.
+<krabs <shake <self We shake hands on it.
+I got a date with the sea creature of my dreams!
+The crabby money hungry daddy!
+<krabs Oh and before I forget…
+<krabs You still owe me money for using my time.
+<self Shit.
+<scene
+
+
+<krabs <exp 4 <self Mr. Krabs didn’t say anything before pulling out a tiny violin and beginning to play it.
+<krabs I’m sorry <play.
+<krabs But money is my one true love.
+<krabs pos 0 <self He quickly hopped into the Qrusty Qrab before speeding out of the parking lot as fast as he could.
+Leaving me in the dust left behind.
+I ruined my one chance to date Mr. Krabs.
+I feel as pathetic as a Chum Bucket. 

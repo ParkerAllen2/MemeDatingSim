@@ -1,4 +1,4 @@
-<theme glitter <back lib <self I realized what better place to look for the meme man of my dreams than the recreational centre. 
+<theme monday <back gym <self I realized what better place to look for the meme man of my dreams than the recreational centre. 
 A place in which the strongest, most masculine memes will gather to flex their amazing bods.
 I head over to the recreational centre, my fantasies realized as I’m surrounded by ripped, muscular strength that is the buff memes.
 But one meme has for certain caught my eye.
@@ -19,11 +19,11 @@ Now this, this is a meme I want as my date while going to school here.
 I go over to where Buff Doge was and pick up the heaviest thing I could bench press.
 Two 10 pound weights.
 I begin to try my damn hardest to bench press these weights, but then the memes that were around Buff Doge began cheering like it was a sports competition.
-<Buff <aff 1 <exp 1 Hey, good job trying something new newbie! Always glad to see new people here. <skip 4
+<Buff <aff 1 <sound up <exp 1 Hey, good job trying something new newbie! Always glad to see new people here. <skip 4
 
 <self I sit down near the group of buff memes, just watching as they get their bodies ripped.
 But this doesn’t last long as the man of the hour Buff Doge stops what he’s doing and walks over.
-<Buff <aff -1 <exp 3 You know . . . we do have enough room for you to join us. You don’t have to just sit there.
+<Buff <aff -1 <sound down <exp 3 You know . . . we do have enough room for you to join us. You don’t have to just sit there.
 <player Oh, thanks.
 
 
@@ -45,14 +45,14 @@ My main goal is getting a date from this Perro Grande.
 <o Start trying to use different gym equipment <skip 6
 
 <self I get up and insert myself into the group, looking at Buff Doge with a glint of mischief in my eyes.
-<Buff <exp 3 <aff -1 Uhhh . . . Hey . . . Need help over there?
+<Buff <exp 3 <aff -1 <sound down Uhhh . . . Hey . . . Need help over there?
 <self He looks a bit uncomfortable, trying to figure out what is happening.
 <player hehe . . .
 Sorry . . .
 <Buff <exp 0 <self I walk away sheepishly before finding a piece of equipment to start to good around with. <skip 2
 
 <self I look around and find a punching bag I can begin to use.
-<Buff <exp 1 <aff 1 <self Buff Doge notices and nods in approval of the choice.
+<Buff <exp 1 <aff 1 <sound up <self Buff Doge notices and nods in approval of the choice.
 
 <Buff Here, let me help you with that <play! <exp 1
 
@@ -81,15 +81,15 @@ As he is, in fact, still a doge.
 
 <Buff I . . . should probably go get a shirt on. <exp 0
 <o Oh, ok.
-<o But I like what I see - Love. <skip 4
+<o But I like what I see. <skip 4
 
-<Buff <aff -1 <pos 0 <self Doge runs off to the locker room.
+<Buff <aff -1 <sound down <pos 0 <self Doge runs off to the locker room.
 <self Only to return later with remnants of what appears to be some tee shirts.
 <Buff <pos 1 I . . .
 <Buff They all ripped when I tried to put them on. <skip 4
 
 <self Doge turned an even darker shade of red, his muscles tensing as if they were reacting to being praised.
-<Buff <aff 1 <exp 2 Such appreciation…
+<Buff <aff 1 <sound up <exp 2 Such appreciation…
 <Buff Very wow . . .
 <Buff A-Ack! Sorry I reverted back to my family’s speech habits.
 
@@ -116,9 +116,9 @@ It took a second for the meme to figure out what just happened, his eyes widenin
 
 <Buff Sorry, I just hate pompous idiots.
 <o I . . . Thank you.
-<o You didn’t have to do that - Dislike <skip 8
+<o You didn’t have to do that <skip 8
 
-<Buff <aff 1 <self Buff Doge smiles, rubbing the back of his head.
+<Buff <aff 1 <sound up <self Buff Doge smiles, rubbing the back of his head.
 <Buff It was nothing.
 <Buff I just hate <shake it that people think I have to be a top notch Doge meme because I come from a long line of Doges.
 <player Hey, you being you is the best kind.
@@ -127,7 +127,7 @@ It took a second for the meme to figure out what just happened, his eyes widenin
 <player But you sounded like that a while ago.
 <Buff . . . True. <skip 3
 
-<Buff <aff -1 <self Buff Doge looked a little saddened.
+<Buff <aff -1 <sound down <self Buff Doge looked a little saddened.
 <Buff But I wanted to.
 <Buff I hate <shake it when people get cocky just because I’m a Doge.
 
@@ -158,8 +158,8 @@ I wanted to get my buff man!
 <o Please become my man!
 <o Please go on a date with me! <skip 1
 
-<Buff <aff -1 <skip 1
-<Buff <aff 1
+<Buff <aff -1 <sound down <skip 1
+<Buff <aff 1 <sound up
 
 <self Doge just stares for a minute.
 Slightly dumbfounded as if he is trying to process the words.

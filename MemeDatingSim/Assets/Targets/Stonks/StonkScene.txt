@@ -1,4 +1,4 @@
-<self I realized quickly that my caffeine levels for the day are too low for me to function for the day, my addiction needs to be satisfied.
+<theme wholesome <back cafe <self I realized quickly that my caffeine levels for the day are too low for me to function for the day, my addiction needs to be satisfied.
 What better way to drink the juice that keeps me going than going over to the campus cafe.
 I head over and get in line to get the pure deliciousness that is my normal coffee order, going up to the cashier and finally placing my order.
 
@@ -27,10 +27,10 @@ But Stonks didn’t look pleased with me, his arms crossed as he questioned me f
 <o I just like it that way
 <o Because I wish for my insides to die more quickly <skip 2
 
-<stonks <aff -1 How disgusting.
+<stonks <aff -1 <sound down How disgusting.
 <stonks No one would willingly put that into their body unless they’re trying to die. <skip 3
 
-<stonks <exp 1 <aff 1 <self Stonks had a slight smirk on his face.
+<stonks <exp 1 <aff 1 <sound up <self Stonks had a slight smirk on his face.
 <stonks I knew it.
 <stonks No one would ever drink that unless they wanted to die.
 
@@ -60,10 +60,10 @@ I can’t help but be attracted to the pure intimidation radiating off this meme
 <o You mean Bitcoin?
 <o You mean Dogecoin? <skip 2
 
-<stonks <exp 0 <aff 1 Yes, I personally have invested in it when it first was seen as nothing more than a joke.
+<stonks <exp 0 <aff 1 <sound up Yes, I personally have invested in it when it first was seen as nothing more than a joke.
 <stonks I have been able to invest in more than ever before because of the money I’ve made from it. <skip 3
 
-<stonks <exp 0 <shake <aff -1 I don’t mean that one, the Doge family is growing way too strong for my tastes if you ask me.
+<stonks <exp 0 <shake <aff -1 <sound down I don’t mean that one, the Doge family is growing way too strong for my tastes if you ask me.
 <stonks How does one get their own cryptocurrency anyway?
 <self He looks at me as if I would know the answer to that, which I merely shrug to.
 
@@ -94,11 +94,11 @@ As I’m lost in thought I didn’t realize Stonks leaned in close from across t
 <o Back away from him <skip 3
 
 <self Stonks sits back down in his chair chuckling a bit to himself.
-<stonks <aff 1 Sureeee <play, whatever you say.
+<stonks <aff 1 <sound up Sureeee <play, whatever you say.
 <self Out of all the memes I’ve seen as attractive throughout my years, I didn’t believe that the serious meme that is in fact Stonks would be the most flirtatious. <skip 3
 
 <stonks <exp 4 <self Stonks sighs a bit before sitting back down in his chair.
-<stonks <aff -1 Damn… usually that move works on people.
+<stonks <aff -1 <sound down Damn… usually that move works on people.
 <stonks A shame really . . .
 
 <self Stonks takes a huge gulp of his coffee before going onto his laptop to work on whatever he was working on before having me come over to the table.
@@ -122,11 +122,11 @@ I get another coffee and sit back down with Stonks, who is now off his computer.
 <o That would be interesting
 <o I’m not so sure <skip 3
 
-<stonks <exp 1 <aff 1 <self Stonks smiles, feeling content with the answer I gave him.
+<stonks <exp 1 <aff 1 <sound up <self Stonks smiles, feeling content with the answer I gave him.
 <stonks Lovely, you’d be able to learn of the sweet ecstasy of being able to make the perfect trade when dealing with Stocks.
 <self He folds his hands and puts them on the table. <skip 1
 
-<stonks <aff -1 <exp 0 <self Stonks face becomes unreadable. Not saying anything in response.
+<stonks <aff -1 <sound down <exp 0 <self Stonks face becomes unreadable. Not saying anything in response.
 
 <stonks <exp 0 I have one final question…
 <stonks Is there a type of man you’re attracted to.
@@ -157,8 +157,8 @@ Well I won’t let him have the last say in this.
 <o I want to date you!
 <o Do you think we could date? <skip 1
 
-<stonks <aff 1 <skip 1
-<stonks <aff -1
+<stonks <aff 1 <sound up <skip 1
+<stonks <aff -1 <sound down
 
 <stonks <if 0 <skip 9
 

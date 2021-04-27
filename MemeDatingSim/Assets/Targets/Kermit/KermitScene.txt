@@ -1,0 +1,174 @@
+<theme silly <back lib <self I decided that I wanted to stop by the theater that was on campus, as I heard that they were currently practicing for their next big performance.
+I never really have seen the drama memes up close before, maybe it’s possible one of them will stick out to me.
+I walk into the auditorium, noticing a bunch of memes scurrying around as they’re getting ready for another run of a scene.
+No one too special, the only ones I could recognize from the sea of memes were Sanic, Shaggy, and Waluigi. None to which are my type.
+The lights lowered and the director signaled for the scene to start.
+And out walked a meme so beautiful it felt like the world stopped with him.
+<kermit <pos 2 <self Kermit the Frog.
+A legend in himself, with years of meme stardom on his belt.
+And one of the hottest frogs I’ve ever seen in my goddamn life.
+I sat down in one of the auditorium seats, mesmerized by this amphibious beaut’s performance, when all of the sudden the director cut the scene.
+<kermit <pos 1 <self I see Kermit finally get off the stage, coming over to near where I was to take a break.
+This is my chance!
+
+
+<self I walk over to Kermit, with a wide smile on my face.
+<o Nice performance over there!
+<o Hey you did pretty good up there <skip 2
+
+<kermit <exp 1 <self Kermit looked over, with a wide smile as he set down his Lipton tea.
+<kermit <aff 1 <sound up Why thank you! I do try to do my best. <skip 2
+
+<kermit <exp 3 <self Kermit looked slightly confused, as if trying to hold back that he deserved higher praise.
+<kermit <aff -1 <sound down Well of course I did good, I’m the star of the show after all.
+
+<kermit <exp 0 <self Kermit looked over to me, with a large grin on his face.
+
+<kermit The name’s Kermit, Kermit the Frog.
+<kermit And what’s your name?
+
+<player My name is <play.
+
+<kermit <exp 1 Well nice to meet you <play!
+<self Kermit holds out his hand for a handshake, but when I went to shake his hand he grabbed it and <kermit <shake <self shook it as if it was the hand of the puppet.
+Kermit then stares at the player behind the screen, laughing silently before looking back at me. <kermit <exp 0 <self
+
+
+<kermit So <play, do you like the performing arts?
+<o I think it looks like a lot of work
+<o I think it looks interesting <skip 8
+
+<kermit <aff -1 <sound down <exp 4 <self Kermit huffs a bit, shaking his head and looking to the ground.
+<kermit Of course it’s a lot of work.
+<kermit Art is work.
+<kermit <exp 0 Yet the most beautiful art is the ones we put all our effort into.
+<kermit <hop <self Kermit clenches his fist, looking up to the ceiling as if he’s giving the speech of a lifetime.
+<kermit Without art our world becomes a bleak, desolate wasteland of nothing but compliance. Without art our abilities to express ourselves are almost entirely destroyed to the point that-
+<player Ok ok I get it.
+<self If I didn’t stop him there he’d probably go on for hours. <skip 7
+
+<kermit <aff 1 <hop <sound up <exp 1 Well of course it’s interesting!
+<kermit The stage is it’s own world, through it we can make anything happen.
+<kermit <hop <self Kermit then gets on top of an auditorium chair, a spotlight falling onto his figure as if on command.
+<kermit <exp 0 Without the art of theater, I would never be the frog that I am today. I’d merely be a puppet of the masses doing whatever they intended for me to do in their minds.
+<kermit Theater is important to society as through the power of art we can inspire the masses to be whatever they want to be-
+<player Ok Shakespeare I get it
+<self The spotlight immediately went away the moment Kermit stopped talking, he really has control of this auditorium huh.
+
+
+<self But… even with Kermit rambling on and on…
+I can’t help but be attracted to a meme so engrossed into his passions.
+<kermit Anyways, I should probably get back to practi-
+<kermit <shake WHAT ARE YOU DOING?!?!?
+<self Kermit began flailing around in a frenzy, like a ragdoll being handled by a toddler.
+<kermit <pos 2 <self On stage a few of the other memes had accidentally knocked over all of the props, looking dumbfounded as Kermit was all over the place.
+<kermit <flip <hop <self He ran onto the stage to start trying to put everything back to the way it was. 
+He even tried to sing the stage back together like in a movie he was in before.
+<kermit <pos 1 <self But it was all in vain, it still was a mess.
+<kermit <exp 4 <self Kermit crumpled to the floor of the stage, tears falling from his bulbous eyes.
+
+
+<kermit <exp 4 It’s all over… My dreams are as good as dead.
+<o Go comfort him
+<o Help clean up the stage <skip 8
+
+<self I walk over to Kermit, kneeling down next to the frog.
+<player Hey it’s ok, everything is fixable is it not?
+<self Kermit wipes away his tears, looking up at me.
+<kermit <flip Are you sure?
+<player I’m sure.
+<self I hug Kermit to try to help him calm down, but once I did his personality flipped instantly to gleeful.
+<kermit <hop <aff 1 <sound up <exp 1 I see, well that’s good. And I got a hug out of it too.
+<self Did… Did I just get played? <skip 6
+
+<self I walk over and begin to try to clean up the mess left behind as best I could.
+<kermit <exp 3 <self But Kermit just looks up, his face scrunched up and unfazed.
+<kermit <flip <shake <aff -1 <sound down Hey… I’m wallowing in sorrow over here.
+<kermit <exp 4 Aren’t people supposed to cheer up those who’re sad in these situations?
+<kermit <exp 0 <self Oh… I guess he wanted me to go cheer him up instead.
+Well he is a theater major, those types can be a bit overdramatic.
+
+
+<player Did you pretend to cry just to get me to fawn all over you? How cute.
+
+<kermit <exp 2 <self Kermit blank stared for a second, before his face turned a shade of pink.
+
+<self I could’ve sworn I could see little hearts floating around him too.
+
+<kermit <exp 0 Maybe… I was a bit upset in the moment though.
+<kermit But as you seemed like a fan of course I’d want you to fawn all over me.
+
+<self He stood up, smirking a bit as sparkles danced around him like an anime boy.
+What an interesting character on top of his good looks.
+<kermit <shake <self Kermit proceeds to brush himself off before <kermit <flip <hop <self hopping over to the director, who had just walked in and began to panic about the stage.
+Do I make a move then? If he’s being so flirty it could work in my favor.
+After all, he’s the reason why I stayed here even though no one else looked interesting.
+
+<kermit <flip Hey <play?
+
+<self I quickly snap out of my thoughts and look to Kermit, who is now standing in front of me.
+
+<kermit Thanks for trying to help earlier.
+<kermit To show my appreciation I’ll allow you to give me a hug.
+<kermit After all, who wouldn't want to hug someone famous?
+
+
+<self He held out his arms for a hug, making the fact that he is a short frog much more noticeable.
+<o Kneel down and hug him
+<o Hug him <skip 3
+
+<self I kneel down to his level in order to give him a hug
+<kermit <shake <exp 3 <aff -1 <sound down <self Only to be greeted by a face of confusion and dread
+But he still accepted the hug regardless. <skip 2
+
+<kermit <exp 1 <aff 1 <sound up <self I hug him to the best of my abilities, with kermit looking satisfied by it.
+<kermit See? Isn’t it wonderful to hug such an iconic frog?
+
+
+<kermit <exp 0 <self I pull back after a couple seconds, Kermit looking satisfied.
+<kermit Say <play...
+<kermit Do you have feelings for me?
+
+<self I stopped, looking at him with a bit of shock.
+<self How did he figure it out?
+
+<kermit I’ve never seen you in here before, but even so you stayed.
+<kermit So tell me…
+
+<kermit <hop <self He faked flipping back hair, a hint of mischief twinkling in his eyes.
+Of course he’d figure it out.
+This is Kermit the Frog.
+
+
+<self The master of acting that he is would be able to pick up on subtle details like that.
+<o Yes, I do
+<o Nod slowly <skip 1
+
+<kermit <aff 1 <sound up <skip 1
+<kermit <aff -1 <sound down
+
+<kermit <if 0 <skip 11
+
+
+<self Kermit then began to dance in place, the spotlights going onto him like he’s the star of the show.
+<kermit I knew it!
+<kermit Well since we established that you have feelings for me.
+<kermit Why don’t you go on a date with me?
+<kermit <exp 1 You don’t have to ‘Kermit’ or anything.
+<kermit But you seem like the type who’d appreciate my contributions to society.
+<self I nod frantically in response, taking a hold of his hand as he whisked me out of the auditorium.
+I was able to get The Kermit the Frog to ask me out on a date.
+The most handsome of frog memes.
+I couldn’t be happier.
+<scene
+
+
+<kermit <exp 4 <self Kermit then sighed loudly, holding his hand against his head in disappointment. *Sad sprite*
+<kermit Look <play...
+<kermit I am a famous frog.
+<kermit I can’t just go around dating any fan that comes my way.
+<kermit Therefore we can’t ever be together.
+<self He picked up a unicycle that was leaning against a nearby chair, before going outside and riding into the sunset like the meme Dat Boy.
+<kermit <pos 0 <self I failed to pick up Kermit.
+My frog meme boyfriend dreams are as good as dead.
+<scene
